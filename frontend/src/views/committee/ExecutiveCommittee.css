@@ -1,0 +1,818 @@
+.frame-child {
+  width: 90.19rem;
+  height: 131.88rem;
+  position: relative;
+  background-color: #fff;
+  display: none;
+  max-width: 100%;
+}
+.lorem-ipsum-dolor-container {
+
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 2.19rem;
+  text-transform: capitalize;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.lorem-ipsum-dolor-sit-amet-co-wrapper {
+  width: 60.94rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.executive-committee {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 2.19rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.f-r-a-m-e-item {
+  height: 47.56rem;
+  width: 23.31rem;
+  position: relative;
+  border-radius: 200px 200px 0 0;
+  background: linear-gradient(180deg, #ffa300, rgba(255, 163, 0, 0));
+  display: none;
+  max-width: 100%;
+}
+.f-r-a-m-e-inner {
+  height: 18.56rem;
+  width: 18.56rem;
+  position: relative;
+  z-index: 2;
+}
+.f-r-a-m-e3 {
+  height: 47.63rem;
+  margin: 0 !important;
+  position: absolute;
+  top: -9.25rem;
+  left: 0;
+  border-radius: 200px 200px 0 0;
+  background: linear-gradient(180deg, #ffa300, rgba(255, 163, 0, 0));
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2.69rem 2.38rem;
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.yohan-joseph {
+  margin-block-start: 0;
+  margin-block-end: 20px;
+  text-transform: capitalize;
+}
+.chairperson {
+  margin: 0;
+  text-transform: uppercase;
+  color: #00629b;
+}
+.yohan-joseph-chairperson-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 2.06rem;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.t-e-x-t {
+  width: 27.25rem;
+  height: 5.38rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.vicechairpersonframe-child {
+  height: 62.88rem;
+  width: 22.94rem;
+  position: relative;
+  border-radius: 200px 200px 0 0;
+  background: linear-gradient(180deg, #00629b, rgba(0, 98, 155, 0.68));
+  transform: rotate(-90deg);
+  display: none;
+  max-width: 100%;
+}
+.prabhasa-dharmarathne {
+  margin-block-start: 0;
+  margin-block-end: 20px;
+}
+.vice-chairperson {
+  margin: 0;
+  color: #ffa300;
+}
+.prabhasa-dharmarathne-vice-container {
+  margin: 0;
+  height: 5.38rem;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 2.06rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 3;
+}
+.vicechairpersonframe-item {
+  height: 18.56rem;
+  width: 18.56rem;
+  position: relative;
+  z-index: 3;
+}
+.vicechairpersonframe {
+  align-self: stretch;
+  border-radius: 0 200px 200px 0;
+  background: linear-gradient(180deg, #00629b, rgba(0, 98, 155, 0.68));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2.31rem 1.81rem 2.13rem 6.75rem;
+  box-sizing: border-box;
+  gap: 2.56rem;
+  max-width: 100%;
+  z-index: 2;
+  text-align: right;
+  color: #fff;
+}
+.frame-item,
+.groupframe {
+  position: relative;
+  max-width: 100%;
+}
+.groupframe {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10rem;
+}
+.frame-item {
+  height: 47.56rem;
+  width: 23.63rem;
+  border-radius: 200px 200px 0 0;
+  background: linear-gradient(180deg, #00629b, rgba(0, 98, 155, 0));
+  display: none;
+}
+.frame-inner {
+  height: 18.56rem;
+  width: 18.56rem;
+  position: relative;
+  z-index: 2;
+}
+.rectangle-div,
+.rectangle-group {
+  border-radius: 0 0 200px 200px ;
+  max-width: 100%;
+}
+.rectangle-group {
+  height: 47.63rem;
+  margin: 0 !important;
+  position: absolute;
+  right: 0;
+  bottom: -9.19rem;
+  background: linear-gradient(360deg, #00629b, rgba(0, 98, 155, 0));
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 2.63rem 2.5rem 2.63rem 2.56rem;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.rectangle-div {
+  height: 63.56rem;
+  width: 23.31rem;
+  position: relative;
+  background: linear-gradient(180.02deg, #ffa300, rgba(255, 163, 0, 0.64));
+  transform: rotate(-90deg);
+  display: none;
+}
+.group-icon {
+  height: 18.56rem;
+  width: 18.56rem;
+  position: relative;
+  z-index: 3;
+}
+.devni-dharmasooriya {
+  margin-block-start: 0;
+  margin-block-end: 20px;
+}
+.secretary {
+  margin: 0;
+  color: #00629b;
+}
+.devni-dharmasooriya-secretary-container {
+  margin: 0;
+  height: 5.38rem;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 2.06rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 3;
+}
+.rectangle-container {
+  align-self: stretch;
+  border-radius: 200px 0 0 200px;
+  background: linear-gradient(180.02deg, #ffa300, rgba(255, 163, 0, 0.64));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2.38rem 2.56rem 2.44rem;
+  box-sizing: border-box;
+  gap: 2.19rem;
+  max-width: 100%;
+  z-index: 2;
+}
+.pasan-senarath {
+  margin-block-start: 0;
+  margin-block-end: 20px;
+}
+.treasurer {
+  margin: 0;
+  color: #ffa300;
+}
+.pasan-senarath-treasurer-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 2.06rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.pasan-senarath-treasurer-wrapper {
+  width: 29.94rem;
+  height: 5.38rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  text-align: right;
+  color: #000;
+}
+.frame-container {
+  align-self: stretch;
+  align-items: center;
+  position: relative;
+  gap: 9.69rem;
+  color: #fff;
+}
+.f-r-a-m-e2,
+.frame-container,
+.groupframe-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.groupframe-parent {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 9.25rem 0 9.19rem;
+  box-sizing: border-box;
+  gap: 1.06rem;
+  text-align: left;
+  font-size: 2.5rem;
+  color: #000;
+}
+.f-r-a-m-e2 {
+  width: 63.56rem;
+  align-items: center;
+  gap: 7.81rem;
+  font-size: 3rem;
+  color: #00629b;
+}
+.m-e-m-b-e-r-s-h-i-p,
+.rectangle-parent {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-parent {
+  flex: 1;
+  background-color: #fff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2.88rem 2.88rem 5.63rem;
+  gap: 6rem;
+}
+.m-e-m-b-e-r-s-h-i-p {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 0.94rem;
+  color: #000;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 1200px) {
+  .groupframe-parent {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    box-sizing: border-box;
+  }
+  .rectangle-parent {
+    gap: 6rem;
+    padding: 1.88rem 1.44rem 8.63rem;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .executive-committee {
+    font-size: 2.38rem;
+    line-height: 1.75rem;
+  }
+  .prabhasa-dharmarathne-vice-container,
+  .yohan-joseph-chairperson-container {
+    font-size: 2rem;
+    line-height: 1.63rem;
+  }
+  .vicechairpersonframe-item {
+
+    width: 18.559;
+    height: 18.559;
+
+  }
+  .vicechairpersonframe {
+    
+    padding: 2.56rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  .groupframe {
+    gap: 10rem;
+  }
+  .group-icon {
+    width: 18.559;
+    height: 18.559;
+  }
+  .devni-dharmasooriya-secretary-container {
+    font-size: 2rem;
+    line-height: 1.63rem;
+  }
+ 
+  .pasan-senarath-treasurer-container {
+    font-size: 2rem;
+    line-height: 1.63rem;
+  }
+  .frame-container {
+    gap: 9.69rem;
+  }
+  .groupframe-parent {
+    padding-top: 3.88rem;
+    padding-bottom: 3.88rem;
+    box-sizing: border-box;
+  }
+  .f-r-a-m-e2 {
+    gap: 7.81rem;
+  }
+  .rectangle-parent {
+    padding-top: 1.25rem;
+    padding-bottom: 2.38rem;
+    box-sizing: border-box;
+  }
+  .lorem-ipsum-dolor-container{
+    margin-top: 1rem;
+  }
+
+}
+@media screen and (max-width: 750px) {
+  .executive-committee {
+    font-size: 1.81rem;
+    line-height: 2rem;
+    padding-bottom: 1rem;
+
+  }
+  .vicechairpersonframe{
+    border-radius: 200px 200px 0 0;
+    flex-wrap: wrap;
+  }
+  .prabhasa-dharmarathne-vice-container,
+  .yohan-joseph-chairperson-container {
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    text-align: center;
+  }
+  .vicechairpersonframe {
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 1.38rem;
+    height: 30rem;
+    width: 25rem;
+    background: linear-gradient(180deg, #00629b, rgba(255, 163, 0, 0));
+  }
+  .groupframe {
+    gap: 2rem;
+    
+  }
+  .devni-dharmasooriya-secretary-container {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.25rem;
+    bottom: 2rem;
+  }
+  .rectangle-container {
+    gap: 2.19rem;
+    padding-top: 1.56rem;
+    flex-wrap: wrap;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 1.56rem;
+    border-radius: 200px 200px 0 0;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #ffa300, rgba(255, 163, 0, 0));
+  }
+  .pasan-senarath-treasurer-container {
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    top: 10rem;
+    text-align: center;
+    left: 3.7rem;
+  }
+  .frame-container {
+    gap: 9.69rem;
+    bottom: 1.8rem;
+  }
+  .groupframe-parent {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    box-sizing: border-box;
+    
+  }.frame-inner{
+    bottom: 9rem;
+    width: 15rem;
+    height: 15rem;
+    top: -162px;
+    padding: 0;
+  }
+  .f-r-a-m-e2 {
+    gap: 7.81rem;
+    width: 20rem;
+    
+  }
+  .rectangle-parent {
+    gap: 2rem;
+    padding-bottom: 200px;
+  }.rectangle-group{
+    border-radius: 200px 200px 0 0;
+    background: linear-gradient(180deg, #00629b, rgba(255, 163, 0, 0));
+
+    height: 480px;
+    top: 30rem;
+  }.rectangle-container{
+    height: 480px;
+  }
+  .lorem-ipsum-dolor-container{
+    margin-top: 1rem;
+    line-height: 1.75rem;
+  }.lorem-ipsum-dolor-sit-amet-co-wrapper {
+    padding-left: 0;
+    padding: 1rem ;
+  }
+  .t-e-x-t{
+    justify-content: center;
+    margin-top: 11rem;
+  }
+  .f-r-a-m-e3{
+    height: 30rem;
+    width: 25rem;
+    
+  }
+  .prabhasa-dharmarathne-vice-container{
+    top: 18.5rem;
+    z-index: 4;
+    text-align: center;
+    
+  }.prabhasa-dharmarathne, .devni-dharmasooriya{
+    color:#000 ;
+  }.vice-chairperson{
+    font-size: 1.4rem;
+  }
+  .vicechairpersonframe-item{
+    bottom: 9rem;
+    width: 15rem;
+    height: 15rem;
+    top: -162px;
+  }.group-icon{
+    bottom: 9rem;
+    width: 15rem;
+    height: 15rem;
+    top: 0;
+  }
+  .groupframe-parent {
+    left: 0;
+    right: 0;
+
+    box-sizing: border-box;
+    gap: 1.06rem;
+    text-align: left;
+    font-size: 2.5rem;
+    color: #000;
+  }
+  .f-r-a-m-e-inner {
+    width: 15rem;
+    height: 15rem;
+    bottom: 2rem;
+    top: 0;
+
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1050px)  {
+  .rectangle-parent {
+    
+    padding-bottom:10rem
+    
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 750px) {
+  .t-e-x-t{
+    margin-left: 10rem;
+  }
+  .pasan-senarath-treasurer-wrapper{
+    margin-right: 10rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .executive-committee {
+    font-size: 1.81rem;
+    line-height: 2rem;
+    padding-bottom: 1rem;
+
+  }
+  .prabhasa-dharmarathne-vice-container,
+  .yohan-joseph-chairperson-container {
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    text-align: center;
+  }
+  .vicechairpersonframe {
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 1.38rem;
+    height: 30rem;
+    width: 25rem;
+    background: linear-gradient(180deg, #00629b, rgba(255, 163, 0, 0));
+  }
+  .groupframe {
+    gap: 2rem;
+    
+  }
+  .devni-dharmasooriya-secretary-container {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.25rem;
+    bottom: 2rem;
+  }
+  .rectangle-container {
+    gap: 2.19rem;
+    padding-top: 1.56rem;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 1.56rem;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #ffa300, rgba(255, 163, 0, 0));
+  }
+  .pasan-senarath-treasurer-container {
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    top: 10rem;
+    text-align: center;
+    left: 3.7rem;
+  }
+  .frame-container {
+    gap: 9.69rem;
+    bottom: 1.8rem;
+  }
+  .groupframe-parent {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    box-sizing: border-box;
+    
+  }
+  .f-r-a-m-e2 {
+    gap: 7.81rem;
+    width: 20rem;
+    
+  }
+  .rectangle-parent {
+    gap: 2rem;
+    padding-bottom: 200px;
+  }.rectangle-group{
+    height: 480px;
+    top: 30rem;
+  }.rectangle-container{
+    height: 480px;
+  }
+  .lorem-ipsum-dolor-container{
+    height: 16rem;
+    line-height: 1.75rem;
+  }.lorem-ipsum-dolor-sit-amet-co-wrapper {
+    padding-left: 0;
+    padding: 1rem ;
+  }
+  .t-e-x-t{
+    justify-content: center;
+    margin-top: 11rem;
+  }
+  .f-r-a-m-e3{
+    height: 30rem;
+    width: 25rem;
+    
+  }
+  .prabhasa-dharmarathne-vice-container{
+    top: 18.5rem;
+    z-index: 4;
+    text-align: center;
+    
+  }.prabhasa-dharmarathne, .devni-dharmasooriya{
+    color:#000 ;
+  }.vice-chairperson{
+    font-size: 1.4rem;
+  }
+  .vicechairpersonframe-item{
+    bottom: 9rem;
+    width: 240px;
+  }.group-icon{
+    width: 240px;
+    bottom: 0.65rem;
+  }
+  .groupframe-parent {
+    left: 0;
+    right: 0;
+
+    box-sizing: border-box;
+    gap: 1.06rem;
+    text-align: left;
+    font-size: 2.5rem;
+    color: #000;
+  }
+  .f-r-a-m-e-inner {
+    width: 15rem;
+    bottom: 2rem;
+
+  }
+
+}
+@media screen and (max-width: 450px) {
+  .executive-committee {
+    font-size: 1.81rem;
+    line-height: 2rem;
+    padding-bottom: 1rem;
+
+  }
+  .prabhasa-dharmarathne-vice-container,
+  .yohan-joseph-chairperson-container {
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    text-align: center;
+  }
+  .vicechairpersonframe {
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 1.38rem;
+    height: 30rem;
+    width: 25rem;
+    background: linear-gradient(180deg, #00629b, rgba(255, 163, 0, 0));
+  }
+  .groupframe {
+    gap: 2rem;
+    
+  }
+  .devni-dharmasooriya-secretary-container {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.25rem;
+    bottom: 2rem;
+  }
+  .rectangle-container {
+    gap: 2.19rem;
+    padding-top: 1.56rem;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 1.56rem;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #ffa300, rgba(255, 163, 0, 0));
+  }
+  .pasan-senarath-treasurer-container {
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    top: 10rem;
+    text-align: center;
+    left: 3.7rem;
+  }
+  .frame-container {
+    gap: 9.69rem;
+    bottom: 1.8rem;
+  }
+  .groupframe-parent {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    box-sizing: border-box;
+    
+  }.frame-inner{
+
+    width: 15rem;
+    bottom: 8rem;
+  }
+  .f-r-a-m-e2 {
+    gap: 7.81rem;
+    width: 20rem;
+    
+  }
+  .rectangle-parent {
+    gap: 2rem;
+    padding-bottom: 200px;
+  }.rectangle-group{
+    height: 480px;
+    top: 30rem;
+  }.rectangle-container{
+    height: 480px;
+  }
+  .lorem-ipsum-dolor-container{
+    height: 16rem;
+    line-height: 1.75rem;
+  }.lorem-ipsum-dolor-sit-amet-co-wrapper {
+    padding-left: 0;
+    padding: 1rem ;
+  }
+  .t-e-x-t{
+    justify-content: center;
+    margin-top: 11rem;
+  }
+  .f-r-a-m-e3{
+    height: 30rem;
+    width: 25rem;
+    
+  }
+  .prabhasa-dharmarathne-vice-container{
+    top: 18.5rem;
+    z-index: 4;
+    text-align: center;
+    
+  }.prabhasa-dharmarathne, .devni-dharmasooriya{
+    color:#000 ;
+  }.vice-chairperson{
+    font-size: 1.4rem;
+  }
+  .vicechairpersonframe-item{
+    bottom: 9rem;
+    width: 240px;
+  }.group-icon{
+    width: 240px;
+    bottom: 0.65rem;
+  }
+  .groupframe-parent {
+    left: 0;
+    right: 0;
+
+    box-sizing: border-box;
+    gap: 1.06rem;
+    text-align: left;
+    font-size: 2.5rem;
+    color: #000;
+  }
+  .f-r-a-m-e-inner {
+    width: 15rem;
+    bottom: 2rem;
+
+  }
+}

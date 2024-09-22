@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.custom-bg {
+  background-color: #00629b;
+}
+
+.contact {
+  background: linear-gradient(to right , #00629b, #199de9);
+}
+.container{
+	max-width: 90%;
+}
+
+.contactChild {
+  background: linear-gradient(to right , #ffa300, transparent);
+}

@@ -1,0 +1,432 @@
+.f-r-a-m-e-child {
+  height: 42rem;
+  width: 90rem;
+  top: -4rem;
+  position: relative;
+  border-radius: 84px 84px 0 0;
+  background: linear-gradient(180deg, #002b44, #00629b);
+  transform: rotate(-180deg);
+  display: flex;
+  
+  max-width: 100%;
+}
+.favpng-printed-circuit-board-e-icon {
+  width: 28rem;
+  position: absolute;
+  max-height: 100%;
+  object-fit: contain;
+  max-width: 100%;
+  z-index: 1;
+  margin-right: 1rem;
+}
+.f-r-a-m-e1 {
+  width: 83.06rem;
+  margin: 0 !important;
+  position: absolute;
+  height: 40rem;
+  top: -7rem;
+  left: -3.81rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 3.75rem 0;
+  box-sizing: border-box;
+}
+.committee-of,
+.ieee-student-branch {
+  margin-block-start: 0;
+  margin-block-end: 20px;
+}
+.of-sliit {
+  margin: 0;
+}
+.committee-of-ieee-container {
+  margin: 0;
+  align-self: stretch;
+  height: 27.81rem;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 6.31rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+
+.explore {
+  flex: 1;
+  font-size: 22pt;
+  background-color: #ffa300;
+  font-weight: 500;
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  z-index: 20;
+  box-shadow: none;
+  color: #002b44;
+  border: none;          /* Remove the border */
+  outline: none;         /* Remove the outline */
+  cursor: pointer;       /* Add a pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Optional: add a smooth transition for background color */
+}
+
+
+.exploretext-parent {
+  width: 12.44rem;
+  margin: 0 !important;
+  position: absolute;
+  bottom: 1.06rem;
+  left: 31.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 1.56rem 0 2.44rem;
+  box-sizing: border-box;
+  font-size: 2rem;
+  color: #000;
+}
+.committee-of-ieee-student-bran-parent,
+.f-r-a-m-e {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.committee-of-ieee-student-bran-parent {
+  align-self: stretch;
+}
+.f-r-a-m-e {
+  width: 79.75rem;
+  max-width: 100%;
+}
+.f-r-a-m-e-wrapper {
+  width: 86.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 1.25rem;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 5.31rem;
+  color: #fff;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 1050px) {
+  .committee-of-ieee-container {
+    font-size: 4.5rem;
+    line-height: 3.81rem;
+    top: -3rem;
+    left: 2rem;
+    height: 23rem;
+  }
+  .explore {
+    font-size: 1.43rem;
+    line-height: 5.06rem;
+  }
+  .exploretext-parent{
+    left: 0;
+  }
+  .favpng-printed-circuit-board-e-icon{
+    margin-right: 12rem;
+    width: 30rem;
+    margin-bottom:13rem;
+    
+  }
+  .committee-of{
+    margin-bottom: 1rem;
+  }
+
+  .ieee-student-branch{
+    line-height: 4.5rem;
+    margin-bottom: 1rem;
+  }
+  .f-r-a-m-e1 {
+    width: 83.06rem;
+    height: 30rem;
+    top: 0rem;
+    
+    padding: 3.75rem 0;
+    align-items: center;
+  justify-content: flex-end;
+  }
+  .f-r-a-m-e-wrapper{
+    height: 20rem;
+  }
+  .f-r-a-m-e-child {
+    height: 26rem;
+    width: 79.25rem;
+    border-radius: 84px 20px 0 0;
+  }
+  .exploretext-parent {
+    left: 2.2rem;
+    bottom: 5rem;
+    text-align: center ;
+    width: 8rem;    
+  }
+  .explore {
+    font-size: 2rem;
+    line-height: 5rem;
+    padding: 0rem 2rem;
+    border-radius: 50rem;
+    position: absolute;
+    margin-top: 2rem;
+    left: 0rem;
+  }
+}
+@media screen and (max-width: 850px) {
+  .committee-of-ieee-container {
+    font-size: 3.63rem;
+    line-height: 3.81rem;
+    top: -3rem;
+    left: 2rem;
+    height: 23rem;
+  }
+  .explore {
+    font-size: 1.43rem;
+    line-height: 5.06rem;
+  }
+  .exploretext-parent{
+    left: 0;
+  }
+  .favpng-printed-circuit-board-e-icon{
+    margin-right: 25rem;
+    width: 30rem;
+    margin-bottom:13rem;
+    
+  }
+  .committee-of{
+    margin-bottom: 0.5rem;
+  }
+
+  .ieee-student-branch{
+    line-height: 4.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .f-r-a-m-e1 {
+    width: 83.06rem;
+    height: 30rem;
+    top: 0rem;
+    
+    padding: 3.75rem 0;
+    align-items: center;
+  justify-content: flex-end;
+  }
+  .f-r-a-m-e-wrapper{
+    height: 20rem;
+  }
+  .f-r-a-m-e-child {
+    height: 26rem;
+    width: 79.25rem;
+    border-radius: 84px 20px 0 0;
+  }
+  .exploretext-parent {
+    left: 2.2rem;
+    bottom: 5rem;
+    text-align: center ;
+    width: 8rem;    
+  }
+  .explore {
+    font-size: 2rem;
+    line-height: 5rem;
+    padding: 0rem 2rem;
+    border-radius: 50rem;
+    position: absolute;
+    margin-top: 2rem;
+    left: 0rem;
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  .committee-of-ieee-container {
+    font-size: 1.56rem;
+    line-height: 2.5rem;
+  }
+  .explore {
+    font-size: 1.19rem;
+    line-height: 3.81rem;
+  }
+  .favpng-printed-circuit-board-e-icon {
+    width: 22rem;
+    height: 16rem;
+    margin-bottom: 0.5rem;
+    margin-right: 42rem;
+  }
+  .committee-of-ieee-container {
+    height: 5.81rem;
+    font-size: 2.2rem;
+    letter-spacing: 0.02em;
+    line-height: 2.25rem;
+    top: -7rem;
+    left: 2rem;
+    
+  }
+  .f-r-a-m-e-child {
+    height: 26rem;
+    width: 79.25rem;
+    border-radius: 84px 20px 0 0;
+  }
+  .f-r-a-m-e1 {
+    width: 83.06rem;
+    height: 20rem;
+    top: -7rem;
+    
+    padding: 3.75rem 0;
+    align-items: center;
+  justify-content: flex-end;
+  }
+  .f-r-a-m-e-wrapper{
+    height: 8rem;
+  }
+  .exploretext-parent {
+    left: 2.2rem;
+    bottom: -3rem;
+    text-align: center ;
+    width: 8rem;
+    
+  }
+  
+
+
+  .explore {
+    font-size: 1.19rem;
+    line-height: 3rem;
+    padding: 0rem 1rem;
+    border-radius: 50rem;
+    position: absolute;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .committee-of  {
+    margin-bottom: 0.5rem;
+  }
+
+  
+  .committee-of-ieee-container {
+    font-size: 2.2rem;
+    letter-spacing: 0.02em;
+    line-height: 2.25rem;
+    top: -5rem;
+    
+  }
+  .ieee-student-branch {
+    margin-bottom: 0.5rem;
+    line-height: 2.8rem;
+  }
+  .of-sliit{
+    margin-top: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .committee-of-ieee-container {
+    font-size: 1.56rem;
+    line-height: 2.5rem;
+  }
+
+  .favpng-printed-circuit-board-e-icon {
+    width: 16rem;
+    height: 16rem;
+    margin-bottom: 2rem;
+    margin-right: 52rem;
+  }
+  .committee-of-ieee-container {
+    height: 5.81rem;
+    font-size: 2.2rem;
+    letter-spacing: 0.02em;
+    line-height: 2.25rem;
+    top: -7rem;
+    left: 2rem;
+    
+  }
+  .f-r-a-m-e-child {
+    height: 18rem;
+    width: 79.25rem;
+    top: 1rem;
+    border-radius: 84px 20px 0 0;
+  }
+  .f-r-a-m-e1 {
+    width: 83.06rem;
+    height: 20rem;
+    top: -7rem;
+    
+    padding: 3.75rem 0;
+    align-items: center;
+  justify-content: flex-end;
+  }
+  
+  .committee-of  {
+    margin-bottom: 0.5rem;
+  }
+  .ieee-student-branch {
+    margin-bottom: 0.5rem;
+    line-height: 2.8rem;
+  }
+  .of-sliit{
+    margin-top: 0.5rem;
+  }
+  .committee-of-ieee-container {
+    font-size: 1.56rem;
+    line-height: 2.5rem;
+  }
+
+  .exploretext-parent{
+    left: 1.2rem;
+  }
+
+  .explore {
+    font-size: 1.19rem;
+    line-height: 3rem;
+    padding: 0rem 1rem;
+    border-radius: 50rem;
+    position: absolute;
+    margin-top: 4rem;
+  }
+  .favpng-printed-circuit-board-e-icon {
+    width: 16rem;
+    height: 16rem;
+    margin-bottom: 0rem;
+    margin-right: 52rem;
+  }
+  .committee-of-ieee-container {
+    height: 5.81rem;
+    font-size: 2.2rem;
+    letter-spacing: 0.02em;
+    line-height: 2.25rem;
+    top: -4rem;
+    left: 1rem;
+    
+  }
+ 
+  .f-r-a-m-e1 {
+    width: 83.06rem;
+    height: 20rem;
+    top: -7rem;
+    
+    padding: 3.75rem 0;
+    align-items: center;
+  justify-content: flex-end;
+  }
+  
+  .committee-of  {
+    margin-bottom: 0.5rem;
+  }
+  .ieee-student-branch {
+    margin-bottom: 0.5rem;
+    line-height: 2.8rem;
+  }
+  .of-sliit{
+    margin-top: 0.5rem;
+  }
+  .f-r-a-m-e-wrapper{
+    height: 11rem;
+  }
+}

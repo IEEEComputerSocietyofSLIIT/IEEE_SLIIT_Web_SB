@@ -1,0 +1,333 @@
+.publicity {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.02em;
+    line-height: 1.06rem;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-family: inherit;
+  }
+  .p-u-b-l-i-c-i-t-y-t-e-a-m-t-e {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  .publicity-team {
+    margin: 0;
+    position: relative;
+    font-size: 2.63rem;
+    letter-spacing: 0.02em;
+    line-height: 2.19rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: inherit;
+    color: #ffa300;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .publicity-team-frame {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    justify-content: flex-start;
+  }
+  .lorem-ipsum-dolor-container2 {
+    position: relative;
+    font-size: 0.94rem;
+    letter-spacing: 0.02em;
+    line-height: 2.19rem;
+    text-transform: capitalize;
+    text-align: justify;
+    display: inline-block;
+    text-transform: capitalize;
+    color: #fff;
+    text-align: justify;
+  }
+  .subcommittees-text {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    gap: 3.5rem;
+    max-width: 100%;
+  }
+  .frame-child4 {
+    height: 18.5rem;
+    width: 18.25rem;
+    position: relative;
+    border-radius: 200px 200px 0 0;
+    background: linear-gradient(180deg, #ffa300, rgba(255, 163, 0, 0));
+    display: none;
+  }
+  .lead-pic-icon1 {
+    height: 15.96rem;
+    width: 15.96rem;
+    position: relative;
+    z-index: 1;
+  }
+  .rectangle-parent3 {
+    border-radius: 200px 200px 0 0;
+    background: linear-gradient(180deg, #ffa300, rgba(255, 163, 0, 0));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem 1.19rem 1.31rem 1.13rem;
+  }
+  .niumi-halmillawewa {
+    margin-block-start: 0;
+    margin-block-end: 20px;
+  }
+  .leader1 {
+    margin: 0;
+    color: #ffa300;
+    font-size: 1.75rem;
+  }
+  .niumi-halmillawewa-leader-container {
+    width: 100%;
+    height: 2.75rem;
+    position: relative;
+    line-height: 0.75rem;
+    text-transform: capitalize;
+    display: inline-block;
+  }
+  .leadership-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.31rem;
+    width: 25rem;
+  }
+  .thiruni-member-child {
+    height: 18.5rem;
+    width: 18.25rem;
+    position: relative;
+    border-radius: 200px 200px 0 0;
+    background: linear-gradient(180deg, #ffa300, rgba(255, 163, 0, 0));
+    transform: rotate(-180deg);
+    display: none;
+  }
+  .member-icon3 {
+    height: 16.34rem;
+    width: 16.34rem;
+    position: relative;
+    z-index: 1;
+  }
+  .thiruni-member {
+    border-radius: 200px 200px 0 0;
+    background: linear-gradient(180deg, #00b5e2, rgba(255, 163, 0, 0));
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0.88rem 0.88rem 1.31rem;
+  }
+  .anjula-hirimuthugoda {
+    margin-block-start: 0;
+    margin-block-end: 20px;
+  }
+  .member3 {
+    margin: 0;
+    color: #00b5e2;
+    font-size: 1.75rem;
+  }
+  .anjula-hirimuthugoda-member-container {
+    align-self: stretch;
+    height: 2.75rem;
+    width: 100%;
+    position: relative;
+    line-height: 0.75rem;
+    text-transform: capitalize;
+    display: inline-block;
+  }
+  .mahdy-abdullah-nawfar-leader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1.31rem;
+    width: 25rem;
+  }
+  .frame-child5 {
+    height: 18.5rem;
+    width: 18.25rem;
+    position: relative;
+    border-radius: 200px 200px 0 0;
+    background: linear-gradient(180deg, #ffa300, rgba(255, 163, 0, 0));
+    display: none;
+  }
+  .member-icon4 {
+    height: 16.34rem;
+    width: 16.34rem;
+    position: relative;
+    z-index: 1;
+  }
+  .rectangle-parent4 {
+    border-radius: 200px 200px 0 0;
+    background: linear-gradient(180deg, #00b5e2, rgba(255, 163, 0, 0));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1.06rem 0.94rem 1.13rem;
+  }
+  .mithila-samarawickrama {
+    margin-block-start: 0;
+    margin-block-end: 20px;
+  }
+  .member4 {
+    margin: 0;
+    color: #00b5e2;
+    font-size: 1.75rem;
+  }
+  .mithila-samarawickrama-member-container {
+    align-self: stretch;
+    height: 2.75rem;
+    width: 100%;
+    position: relative;
+    line-height: 0.75rem;
+    text-transform: capitalize;
+    display: inline-block;
+  }
+  .mahdy-abdullah-nawfar-leader1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.31rem;
+    margin-bottom: 4rem;
+    width: 25rem;
+  }
+  .membership-development-team-te,
+  .membership-text,
+  .niumi-halmillawewa-leader {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  .membership-development-team-te {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+  }
+  .membership-text,
+  .niumi-halmillawewa-leader {
+    box-sizing: border-box;
+  }
+  .niumi-halmillawewa-leader {
+    width: 75.5rem;
+    flex-direction: row;
+    font-size: 1.75rem;
+    color: #fff;
+  }
+  .membership-text {
+    width: 82.44rem;
+    flex-direction: column;
+    gap: 3.88rem;
+    min-height: 0rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 9.38rem;
+    
+    color: rgba(255, 255, 255, 0.05);
+    font-family: Montserrat;
+  }
+  @media screen and (max-width: 1200px) {
+    .niumi-halmillawewa-leader {
+  
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .publicity {
+      font-size: 3.75rem;
+      line-height: 1.31rem;
+    }
+    .publicity-team {
+      font-size: 2.13rem;
+      line-height: 1.75rem;
+    }
+    .niumi-halmillawewa-leader {
+  
+      box-sizing: border-box;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+    .membership-development-team-te{
+      gap: 3rem;
+      box-sizing: border-box;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+  }
+  @media screen and (max-width: 880px) {
+    .mahdy-abdullah-nawfar-leader1{
+        margin-bottom: 0;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .publicity {
+      font-size: 2.31rem;
+      line-height: 0.88rem;
+    }
+    .publicity-team {
+      font-size: 1.56rem;
+      line-height: 1.31rem;
+      text-align: center;
+    }
+    .anjula-hirimuthugoda-member-container,
+    .mithila-samarawickrama-member-container,
+    .niumi-halmillawewa-leader-container {
+      font-size: 1.38rem;
+      line-height: 0.63rem;
+    }
+    .membership-text {
+      gap: 2.56rem;
+    }
+    .publicity-team-frame {
+      justify-content: center;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .publicity {
+      font-size: 2.31rem;
+      line-height: 0.88rem;
+    }
+    .publicity-team {
+      font-size: 1.56rem;
+      line-height: 1.31rem;
+      text-align: center;
+    }
+    .anjula-hirimuthugoda-member-container,
+    .mithila-samarawickrama-member-container,
+    .niumi-halmillawewa-leader-container {
+      font-size: 1.38rem;
+      line-height: 0.63rem;
+    }
+    .membership-text {
+      gap: 2.56rem;
+    }
+    .publicity-team-frame {
+      justify-content: center;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+  

@@ -1,0 +1,15 @@
+/* Button styles */
+.scrollButton {
+  background-color: #007bff; /* Blue background color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding */
+  border: none; /* Remove border */
+  border-radius: 20px; /* Rounded edges */
+  cursor: pointer; /* Cursor style */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+.scrollButton:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

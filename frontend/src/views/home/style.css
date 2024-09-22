@@ -1,0 +1,222 @@
+.Header{
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(#0000006f, #00000099), url(../../images/headerBackground.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.Header .HeaderText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Header .HeaderText .HeaderText1{
+    letter-spacing: 5px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.Header .HeaderText .HeaderText2{
+    letter-spacing: 5px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.Header .HeaderJoinUs{
+    
+}
+
+.Header .HeaderJoinUs .HeaderJoinUsButton{
+    padding: 15px 45px;
+    font-size: 1.1rem;
+    border: none;
+    background-color: white;
+    color:#00629B;
+    border-radius: 5px;
+}
+
+
+
+
+.WelcomeSection{
+    height: 95vh;
+    width: 100%;
+    background: url(../../images/Welcome.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WelcomeSection .WelcomeSectionContent .WelcomeSectionText{
+    width: 35%;
+    margin: 0 55px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.WelcomeSection .WelcomeSectionContent .WelcomeSectionText .WelcomeSectionTextHeading{
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 1.1px;
+
+}
+
+.WelcomeSection .WelcomeSectionContent .WelcomeSectionText .WelcomeSectionTextPara{
+    width: 95%;
+    line-height: 20px;
+    letter-spacing: 1.1px;
+}
+
+.WelcomeSection .WelcomeSectionContent .WelcomeSectionText .WelcomeSectionTextButton{
+    align-self: flex-start;
+}
+
+.WelcomeSection .WelcomeSectionContent .WelcomeSectionText .WelcomeSectionTextButton button{
+    padding: 15px 55px;
+    background-color: white;
+    color: #000;
+    border: none;
+    /* border-radius: 8px; */
+}
+
+
+
+
+
+.Chapters{
+    padding: 100px 0 100px 0;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;   
+}
+
+.Chapters .ChaptersTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.Chapters .ChaptersContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.Chapters .ChaptersContainer .ChapterCard{
+    width: 20vw;
+    padding: 10px 15px;
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+    gap: 5px;
+}
+
+.Chapters .ChaptersContainer .ChapterCard:hover{
+    background: #f6f6f6;
+    border-radius: 15px;
+    box-shadow: #0000007b 5px 8px 10px
+}
+
+.Chapters .ChaptersContainer .ChapterCard .ChapterTitle{
+    align-self: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.Chapters .ChaptersContainer .ChapterCard img{
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid rgb(203, 203, 203);
+    padding: 25px 35px;
+}
+
+.Chapters .ChaptersContainer .ChapterCard .ChapeterDescription{
+    font-size: .8rem;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .Header{
+        height: 70vh;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .Header .HeaderText{
+        text-align: center;        
+    }
+
+    .Header .HeaderText .HeaderText1{
+        font-size: 1.5rem;
+    }
+
+    .Header .HeaderText .HeaderText2{
+        font-size: 1.5rem;
+    }
+
+    .Header .HeaderJoinUs .HeaderJoinUsButton{
+        margin-top: 25px;
+        padding: 10px 35px;
+    }
+
+    .WelcomeSection{ 
+        height: 100vh;
+        /* background-position: center; */
+        background-size: cover;
+    }
+
+    .WelcomeSection .WelcomeSectionContent .WelcomeSectionText{
+        width: 100%;
+        margin: 0 auto;
+        padding: 25px 35px;
+        backdrop-filter: blur(25px);
+
+    }
+
+    .Chapters{
+        padding: 50px 0 50px 0;
+
+    }
+
+    .Chapters .ChaptersTitle{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .Chapters .ChaptersContainer{
+        grid-template-columns: 1fr; 
+        gap: 50px;
+        justify-items: center;
+    }
+
+    .Chapters .ChaptersContainer .ChapterCard{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+}

@@ -1,0 +1,141 @@
+/* Existing Styles (No Changes) */
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+nav {
+    z-index: 995;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav .navLogo {
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+nav .navLogo img {
+    width: 150px;
+}
+
+nav .navLinksContainer {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+nav .navLinksContainer .navLink a {
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+nav .navLinksContainer .navLink:last-child {
+    background-color: #00629b;
+    border-radius: 55px;
+    padding: 10px 15px;
+}
+
+nav .navLinksContainer .navLink:last-child a {
+    color: white;
+}
+
+/* Burger Menu Styles */
+.navCollapsedNav {
+    display: none;
+}
+
+.navCollapsedNavButton {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.navBarCollpasedNavButtonDiv {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.navBarCollpasedNavButtonDiv.open:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.navBarCollpasedNavButtonDiv.open:nth-child(2) {
+    opacity: 0;
+}
+
+.navBarCollpasedNavButtonDiv.open:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.navCollapsedNavLinks {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 990;
+}
+
+.navCollapsedNavLinks.open {
+    display: flex;
+}
+
+.navCollapsedNavLink {
+    padding: 15px 20px;
+}
+
+.navCollapsedNavLink:last-child {
+    border-bottom: none;
+}
+
+/* Apply the same style to the "Events Page" in the burger menu */
+.navCollapsedNavLink.special a {
+    background-color: #00629b;
+    border-radius: 55px;
+    padding: 10px 15px;
+    color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav .navLinksContainer {
+        display: none;
+    }
+
+    .navCollapsedNav {
+        display: flex;
+        align-items: center;
+    }
+
+    .navCollapsedNavButton {
+        display: flex;
+    }
+
+    .navCollapsedNavLinks {
+        display: none;
+    }
+
+    .navCollapsedNavLinks.open {
+        display: flex;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

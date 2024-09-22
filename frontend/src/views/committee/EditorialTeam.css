@@ -1,0 +1,394 @@
+.editorial-team {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 2.19rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+}
+.framegroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1rem 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.editorial-team1 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: 9.38rem;
+  letter-spacing: 0.02em;
+  line-height: 2.19rem;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-family: inherit;
+  color: rgba(255, 255, 255, 0.05);
+  display: inline-block;
+  min-width: 44.5rem;
+  max-width: 100%;
+}
+.editorialteamframe1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1.38rem;
+  max-width: 100%;
+  color: #ffa300;
+}
+.lorem-ipsum-dolor-container1 {
+
+  position: relative;
+  font-size: 0.94rem;
+  letter-spacing: 0.02em;
+  line-height: 2.19rem;
+  text-transform: capitalize;
+  text-align: justify;
+  display: inline-block;
+}
+.anjula-member-child {
+  height: 18.5rem;
+  width: 18.25rem;
+  position: relative;
+  border-radius: 200px 200px 0 0;
+  background: linear-gradient(180deg, #ffa300, rgba(255, 163, 0, 0));
+  display: none;
+}
+.lead-pic-icon {
+  height: 15.96rem;
+  width: 15.96rem;
+  position: relative;
+  z-index: 1;
+}
+.anjula-member {
+  border-radius: 200px 200px 0 0;
+  background: linear-gradient(180deg, #ffa300, rgba(255, 163, 0, 0));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem 1.19rem 1.31rem 1.13rem;
+}
+.abiru-abayapala {
+  margin-block-start: 0;
+  margin-block-end: 20px;
+}
+.leader {
+  margin: 0;
+  color: #ffa300;
+}
+.abiru-abayapala-leader-container {
+  width: 15.13rem;
+  height: 2.75rem;
+  position: relative;
+  line-height: 0.75rem;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.lead-pic-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.31rem;
+}
+.frame-child1 {
+  height: 18.5rem;
+  width: 18.25rem;
+  position: relative;
+  border-radius: 200px 200px 0 0;
+  background: linear-gradient(180deg, #00b5e2, rgba(0, 181, 226, 0));
+  transform: rotate(-180deg);
+  display: none;
+}
+.member-icon {
+  height: 16.34rem;
+  width: 16.34rem;
+  position: relative;
+  z-index: 1;
+}
+.frame-div {
+  border-radius: 200px 200px 0 0;
+  background: linear-gradient(180deg, #00b5e2, rgba(0, 181, 226, 0));
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0.88rem 0.88rem 1.31rem;
+}
+.chamindu-dilneth {
+  margin-block-start: 0;
+  margin-block-end: 20px;
+}
+.member {
+  margin: 0;
+  color: #00b5e2;
+}
+.chamindu-dilneth-member-container {
+  width: 16.88rem;
+  height: 2.75rem;
+  position: relative;
+  line-height: 0.75rem;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.lead-pic-member1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.31rem;
+}
+.frame-child2 {
+  height: 18.5rem;
+  width: 18.25rem;
+  position: relative;
+  border-radius: 200px 200px 0 0;
+  background: linear-gradient(180deg, #00b5e2, rgba(0, 181, 226, 0));
+  display: none;
+}
+.member-icon1 {
+  height: 16.34rem;
+  width: 16.34rem;
+  position: relative;
+  z-index: 1;
+}
+.rectangle-parent1 {
+  border-radius: 200px 200px 0 0;
+  background: linear-gradient(180deg, #00b5e2, rgba(0, 181, 226, 0));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1.06rem 0.94rem 1.13rem;
+}
+.dasith-sathpura {
+  margin-block-start: 0;
+  margin-block-end: 20px;
+}
+.member1 {
+  margin: 0;
+  color: #00b5e2;
+}
+.dasith-sathpura-member-container {
+  width: 14.81rem;
+  height: 2.75rem;
+  position: relative;
+  line-height: 0.75rem;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.lead-pic-member2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.31rem;
+}
+.frame-child3 {
+  height: 18.5rem;
+  width: 18.25rem;
+  position: relative;
+  border-radius: 200px 200px 0 0;
+  background: linear-gradient(180deg, #00b5e2, rgba(0, 181, 226, 0));
+  transform: rotate(-180deg);
+  display: none;
+}
+.member-icon2 {
+  height: 16.34rem;
+  width: 16.34rem;
+  position: relative;
+  z-index: 1;
+}
+.rectangle-parent2 {
+  border-radius: 200px 200px 0 0;
+  background: linear-gradient(180deg, #00b5e2, rgba(0, 181, 226, 0));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1.06rem 0.94rem 1.13rem;
+}
+.tharindu-bandara {
+  margin-block-start: 0;
+  margin-block-end: 20px;
+}
+.member2 {
+  margin: 0;
+  color: #00b5e2;
+}
+.tharindu-bandara-member-container {
+  width: 16.5rem;
+  height: 2.75rem;
+  position: relative;
+  line-height: 0.75rem;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.lead-pic-member3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.31rem;
+}
+.publicity-frame {
+  width: 100%;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+
+  box-sizing: border-box;
+  gap: 1rem;
+  grid-template-columns: repeat(4, minmax(219px, 1fr));
+  font-size: 1.75rem;
+}
+.editorialteamframe,
+.editorialteamframe-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.editorialteamframe {
+  width: 82.44rem;
+  flex-direction: column;
+  gap: 3.5rem;
+
+}
+.editorialteamframe-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 2.63rem;
+  color: #fff;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 1050px) {
+  .editorial-team {
+    font-size: 2.13rem;
+    line-height: 1.75rem;
+    text-align: center;
+  }
+  .editorial-team1 {
+    font-size: 3.75rem;
+    line-height: 1.31rem;
+    min-width: 100%;
+  }
+  .publicity-frame {
+    margin: 0 auto;
+        gap: 3rem;
+    grid-template-columns: repeat(2, minmax(219px, 380px));
+  }
+}
+@media screen and (max-width: 750px) {
+  .editorial-team {
+    font-size: 1.56rem;
+    line-height: 1.31rem;
+    text-align: center;
+  }
+  .editorial-team1 {
+    font-size: 2.31rem;
+    line-height: 0.88rem;
+  }
+  .abiru-abayapala-leader-container,
+  .chamindu-dilneth-member-container,
+  .dasith-sathpura-member-container,
+  .tharindu-bandara-member-container {
+    font-size: 1.38rem;
+    line-height: 0.63rem;
+  }
+  .publicity-frame {
+    grid-template-columns: minmax(219px, 2fr);
+    margin: 0 ;
+    padding: 0;
+  }
+  .editorialteamframe {
+    padding: 0;
+  }
+  .editorialteamframe1 {
+    justify-content: center;
+    text-align: center;
+  }
+  .framegroup{
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .editorial-team {
+    font-size: 1.56rem;
+    line-height: 1.31rem;
+    text-align: center;
+  }
+  .editorial-team1 {
+    font-size: 2.31rem;
+    line-height: 0.88rem;
+  }
+  .abiru-abayapala-leader-container,
+  .chamindu-dilneth-member-container,
+  .dasith-sathpura-member-container,
+  .tharindu-bandara-member-container {
+    font-size: 1.38rem;
+    line-height: 0.63rem;
+  }
+  .publicity-frame {
+    grid-template-columns: minmax(219px, 2fr);
+    margin: 0 ;
+    padding: 0;
+  }
+  .editorialteamframe {
+    padding: 0;
+  }
+  .editorialteamframe1 {
+    justify-content: center;
+    text-align: center;
+  }
+  .framegroup{
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .editorial-team {
+    font-size: 1.56rem;
+    line-height: 1.31rem;
+    text-align: center;
+  }
+  .editorial-team1 {
+    font-size: 2.31rem;
+    line-height: 0.88rem;
+  }
+  .abiru-abayapala-leader-container,
+  .chamindu-dilneth-member-container,
+  .dasith-sathpura-member-container,
+  .tharindu-bandara-member-container {
+    font-size: 1.38rem;
+    line-height: 0.63rem;
+  }
+  .publicity-frame {
+    grid-template-columns: minmax(219px, 2fr);
+    margin: 0 ;
+    padding: 0;
+  }
+  .editorialteamframe {
+    padding: 0;
+  }
+  .editorialteamframe1 {
+    justify-content: center;
+    text-align: center;
+  }
+  .framegroup{
+    justify-content: center;
+    text-align: center;
+  }
+}
