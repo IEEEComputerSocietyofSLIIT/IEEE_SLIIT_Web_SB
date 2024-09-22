@@ -60,14 +60,15 @@ export const News = () => {
       </div>
 
       {/* Upcoming Events Section */}
-      <section className="mt-12 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
+      <section className="mt-12 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative py-10">
+        <h2 className="text-2xl md:text-4xl font-semibold text-center">Upcoming Events</h2>
 
         {/* Left Arrow */}
         <button
           className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white shadow-lg p-4 rounded-full z-10 hidden md:block" // Positioned outside of the slider
           onClick={() => scrollLeft(upcomingRef)}
         >
-          {/* <FontAwesomeIcon icon={faArrowLeft} className="text-blue-600" /> */}
+          <FontAwesomeIcon icon={faArrowLeft} className="text-blue-600" />
         </button>
 
         {/* Slider */}
@@ -115,13 +116,13 @@ export const News = () => {
           className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white shadow-lg p-4 rounded-full z-10 hidden md:block" // Positioned outside of the slider
           onClick={() => scrollRight(upcomingRef)}
         >
-          {/* <FontAwesomeIcon icon={faArrowRight} className="text-blue-600" /> */}
+          <FontAwesomeIcon icon={faArrowRight} className="text-blue-600" />
         </button>
       </section>
 
       {/* Past Events Section */}
-      <section className="mt-16 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mb-16 relative">
-        <h2 className="text-2xl md:text-4xl font-semibold text-center">Checkout Our Events</h2>
+      <section className="mt-16 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mb-16 relative py-10 my-10">
+        <h2 className="text-2xl md:text-4xl font-semibold text-center">Past Events</h2>
 
         {/* Left Arrow */}
         <button

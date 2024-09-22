@@ -68,6 +68,14 @@ const HomeNew = () => {
                     <h1 class="text-4xl sm:text-5xl font-bold leading-tight mb-10">IEEE Student Branch Chapters</h1>
                 </div>
                 <div class="mx-auto grid justify-center gap-4 sm:grid-cols-2 max-w-screen-xl md:grid-cols-3">
+                <div class="relative overflow-hidden rounded-3xl border bg-gray-100/50 p-2">
+                        <div class="flex h-[180px] flex-col justify-between rounded-md p-6">
+                            <img src={CS} className='scale-125' />
+                            <div class="">
+                                <p class="text-sm text-muted-foreground text-center">IEEE Computer Society of SLIIT</p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="relative overflow-hidden rounded-3xl border bg-gray-100/50 p-2">
                         <div class="flex h-[180px] flex-col justify-between rounded-lg p-6">
                             <img src={WIE} />
@@ -76,14 +84,7 @@ const HomeNew = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="relative overflow-hidden rounded-3xl border bg-gray-100/50 p-2">
-                        <div class="flex h-[180px] flex-col justify-between rounded-md p-6">
-                            <img src={CS} className='scale-125' />
-                            <div class="">
-                                <p class="text-sm text-muted-foreground text-center">IEEE Computer Society of SLIIT</p>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <div class="relative overflow-hidden rounded-3xl border bg-gray-100/50 p-2">
                         <div class="flex h-[180px] flex-col justify-between rounded-md p-6">
                             <img src={PES}  />
