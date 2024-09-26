@@ -34,7 +34,7 @@ export const Eventform = () => {
       console.log(formData.get('images'));
 
       // Make Axios POST request to the backend API endpoint
-      const response = await axios.post('http://localhost:3001/event_api/createEvent', formData, {
+      const response = await axios.post('http://localhost:3000/event_api/createEvent', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },

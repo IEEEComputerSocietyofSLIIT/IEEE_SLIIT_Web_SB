@@ -12,7 +12,7 @@ export const News = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/api/get/events/IEEESB") // Common endpoint for all events
+      .get("http://localhost:3000/api/get/events/IEEESB") // Common endpoint for all events
       .then((response) => {
         setData(response.data); // Events are already sorted by createdAt from the backend
       })
@@ -28,7 +28,7 @@ export const News = () => {
     (event) => new Date(event.date) <= new Date(currentDate)
   );
 
-  const baseURL = "http://localhost:3001"; // Define your base URL
+  const baseURL = "http://localhost:3000"; // Define your base URL
   const getFullImageUrl = (imagePath) => {
     return `${baseURL}/${imagePath.replace(/^\/+/, "")}`; // Remove leading slashes from the image path
   };
