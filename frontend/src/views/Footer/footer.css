@@ -20,7 +20,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 25%;
 }
 
 .footer-logo img{
@@ -29,7 +28,7 @@
 
 .footer-columns {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   max-width: 90%;
   margin: 0 auto;
@@ -47,9 +46,6 @@
   display: flex;
 }
 
-.footer-column .footer-h4 {
-  /* color: #333; */
-}
 
 .footer-column .footer-ul {
   list-style: none;

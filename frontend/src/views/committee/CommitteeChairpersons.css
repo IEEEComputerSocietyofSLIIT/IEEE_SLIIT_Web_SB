@@ -228,6 +228,7 @@
   }
   .niumi-halmillawewa-leader {
     width: 75.5rem;
+    margin: 0 auto;
     flex-direction: row;
     font-size: 1.75rem;
     color: #fff;
@@ -298,6 +299,22 @@
     }
     .membership-text {
       gap: 2.56rem;
+    }
+    .niumi-halmillawewa-leader {
+  margin: 0 auto;
+      box-sizing: border-box;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .membership-development-team-te{
+      gap: 3rem;
+      margin: 0 auto;
+      box-sizing: border-box;
+      display: flex;
+      justify-self: center;
+      flex-wrap: wrap;
+      flex-direction: column;
     }
     .publicity-team-frame {
       justify-content: center;

@@ -8,6 +8,7 @@ import mission from "./images/mission1.png";
 import aboutus from "./images/about.png";
 import vision1 from "./images/vision1.png";
 import mission1 from "./images/mission1.png";
+import SBawards from "./images/awardsSB.jpg";
 
 export const AboutNew = () => {
     return (
@@ -67,6 +68,10 @@ export const AboutNew = () => {
                             technological innovation and excellence for the benefit of
                             humanity.</p>
                     </div>
+                </div>
+                <h2 class="text-3xl font-semibold text-center text-gray-900 dark:text-black mt-20 mb-10">Awards</h2>
+                <div className="px-6 mx-auto grid md:flex lg:gap-4 xs:gap-2 justify-center lg:items-center md:items-center mt-4">
+                <img src={SBawards} alt="awards" class="max-w-screen-lg mx-auto rounded-3xl w-full " />
                 </div>
             </section>
 

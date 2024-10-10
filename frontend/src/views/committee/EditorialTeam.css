@@ -240,15 +240,15 @@
   gap: 1.31rem;
 }
 .publicity-frame {
-  width: 100%;
+  /* width: 100%; */
   display: grid;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
 
   box-sizing: border-box;
-  gap: 1rem;
-  grid-template-columns: repeat(4, minmax(219px, 1fr));
+  gap: 5rem;
+  grid-template-columns: repeat(2, minmax(219px, 1fr));
   font-size: 1.75rem;
 }
 .editorialteamframe,

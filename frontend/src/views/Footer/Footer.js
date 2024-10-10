@@ -6,38 +6,42 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-logo">
-        <img src={IEEE} alt="logo"></img>
+        <img src={IEEE} alt="logo" clas></img>
       </div>
       <br></br>
-      <div className="footer-columns">
+      <div className="footer-columns ">
+      <p className="text-justify mb-10">
+        IEEE is the world’s largest professional association advancing
+        innovation and technological excellence for the benefit of humanity.
+        IEEE and its members inspire a global community to innovate for a better
+        tomorrow through its highly cited publications, conferences, technology
+        standards, and professional and educational activities. IEEE is the
+        trusted “voice” for engineering, computing and technology information
+        around the globe.
+      </p>
         <div className="footer-column">
           <h4 className="footer-h4">QUICK LINKS</h4>
           <ul className="footer-ul">
-            <li className="footer-li">Past Events</li>
-            <li className="footer-li">Community Details</li>
-            <li className="footer-li">Gallery</li>
-            <li className="footer-li">Home</li>
+            <a href="/"><li className="footer-li">Home</li></a>
+            <a href="/committee"><li className="footer-li">Community Details</li></a>
+            <a href="/about"><li className="footer-li">About Us</li></a>
+            <a href="/contact-us"><li className="footer-li">Contact Us</li></a>
+            <a href="/news"><li className="footer-li">Events</li></a>
           </ul>
         </div>
-        <div className="footer-column">
-          <h4 className="footer-h4">NEWS FEED</h4>
-          <ul className="footer-ul">
-            <li className="footer-li">Achievements</li>
-            <li className="footer-li">Upcoming Events</li>
-            <li className="footer-li">Freshers</li>
-            <li className="footer-li">Tech Updates</li>
-          </ul>
-        </div>
-        <div className="footer-column">
-          <h4 className="footer-h4">COMPUTING RESOURCES</h4>
-          <ul className="footer-ul">
-            <li className="footer-li">Career Center</li>
-            <li className="footer-li">Webinars</li>
-            <li className="footer-li">Podcasts</li>
-            <li className="footer-li">Courses & Certifications</li>
-          </ul>
-        </div>
-        <div className="footer-column">
+
+        <iframe
+                        className="rounded-xl w-full  h-full"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d126745.6272212363!2d79.829906!3d6.9143985!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae256db1a6771c5%3A0x2c63e344ab9a7536!2sSri%20Lanka%20Institute%20of%20Information%20Technology!5e0!3m2!1sen!2slk!4v1721225834362!5m2!1sen!2slk"
+                        width="400"
+                        height="150"
+                        style={{ border: 0 }}
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                      ></iframe>
+        
+        {/* <div className="footer-column">
           <h4 className="footer-h4">CONTACT US</h4>
 
           <ul className="footer-ul">
@@ -101,63 +105,22 @@ const Footer = () => {
               &nbsp; Open to talk
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
       {/* <hr className="footer-hr" /> */}
       <div className="FooterDown">
-      <div className="footer-social-icons">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          x="0px"
-          y="0px"
-          width="30"
-          fill="white"
-          height="30"
-          viewBox="0 0 50 50"
-          cursor="pointer"
-        >
-          <path d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z"></path>
-        </svg>
-        &nbsp;&nbsp;&nbsp;
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          x="0px"
-          y="0px"
-          width="30"
-          height="30"
-          fill="white"
-          viewBox="0 0 50 50"
-          cursor="pointer"
-        >
-          <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
-        </svg>
-        &nbsp;&nbsp;&nbsp;
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          x="0px"
-          y="0px"
-          fill="white"
-          width="30"
-          height="30"
-          viewBox="0 0 50 50"
-          cursor="pointer"
-        >
-          <path d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"></path>
-        </svg>
+      <div className="flex gap-4 mx-auto justify-center text-white my-10">
+        <a href="http://bit.ly/IEEESLIITFB"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="white"><path d="M16,2c-7.732,0-14,6.268-14,14,0,6.566,4.52,12.075,10.618,13.588v-9.31h-2.887v-4.278h2.887v-1.843c0-4.765,2.156-6.974,6.835-6.974,.887,0,2.417,.174,3.043,.348v3.878c-.33-.035-.904-.052-1.617-.052-2.296,0-3.183,.87-3.183,3.13v1.513h4.573l-.786,4.278h-3.787v9.619c6.932-.837,12.304-6.74,12.304-13.897,0-7.732-6.268-14-14-14Z"></path></svg></a>
+        <a href="http://bit.ly/IEEESLIITINSTA">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="white"><path d="M10.202,2.098c-1.49,.07-2.507,.308-3.396,.657-.92,.359-1.7,.84-2.477,1.619-.776,.779-1.254,1.56-1.61,2.481-.345,.891-.578,1.909-.644,3.4-.066,1.49-.08,1.97-.073,5.771s.024,4.278,.096,5.772c.071,1.489,.308,2.506,.657,3.396,.359,.92,.84,1.7,1.619,2.477,.779,.776,1.559,1.253,2.483,1.61,.89,.344,1.909,.579,3.399,.644,1.49,.065,1.97,.08,5.771,.073,3.801-.007,4.279-.024,5.773-.095s2.505-.309,3.395-.657c.92-.36,1.701-.84,2.477-1.62s1.254-1.561,1.609-2.483c.345-.89,.579-1.909,.644-3.398,.065-1.494,.081-1.971,.073-5.773s-.024-4.278-.095-5.771-.308-2.507-.657-3.397c-.36-.92-.84-1.7-1.619-2.477s-1.561-1.254-2.483-1.609c-.891-.345-1.909-.58-3.399-.644s-1.97-.081-5.772-.074-4.278,.024-5.771,.096m.164,25.309c-1.365-.059-2.106-.286-2.6-.476-.654-.252-1.12-.557-1.612-1.044s-.795-.955-1.05-1.608c-.192-.494-.423-1.234-.487-2.599-.069-1.475-.084-1.918-.092-5.656s.006-4.18,.071-5.656c.058-1.364,.286-2.106,.476-2.6,.252-.655,.556-1.12,1.044-1.612s.955-.795,1.608-1.05c.493-.193,1.234-.422,2.598-.487,1.476-.07,1.919-.084,5.656-.092,3.737-.008,4.181,.006,5.658,.071,1.364,.059,2.106,.285,2.599,.476,.654,.252,1.12,.555,1.612,1.044s.795,.954,1.051,1.609c.193,.492,.422,1.232,.486,2.597,.07,1.476,.086,1.919,.093,5.656,.007,3.737-.006,4.181-.071,5.656-.06,1.365-.286,2.106-.476,2.601-.252,.654-.556,1.12-1.045,1.612s-.955,.795-1.608,1.05c-.493,.192-1.234,.422-2.597,.487-1.476,.069-1.919,.084-5.657,.092s-4.18-.007-5.656-.071M21.779,8.517c.002,.928,.755,1.679,1.683,1.677s1.679-.755,1.677-1.683c-.002-.928-.755-1.679-1.683-1.677,0,0,0,0,0,0-.928,.002-1.678,.755-1.677,1.683m-12.967,7.496c.008,3.97,3.232,7.182,7.202,7.174s7.183-3.232,7.176-7.202c-.008-3.97-3.233-7.183-7.203-7.175s-7.182,3.233-7.174,7.203m2.522-.005c-.005-2.577,2.08-4.671,4.658-4.676,2.577-.005,4.671,2.08,4.676,4.658,.005,2.577-2.08,4.671-4.658,4.676-2.577,.005-4.671-2.079-4.676-4.656h0"></path></svg></a>
+        <a href="http://bit.ly/IEEESLIITLINKEDIN">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="white"><path d="M26.111,3H5.889c-1.595,0-2.889,1.293-2.889,2.889V26.111c0,1.595,1.293,2.889,2.889,2.889H26.111c1.595,0,2.889-1.293,2.889-2.889V5.889c0-1.595-1.293-2.889-2.889-2.889ZM10.861,25.389h-3.877V12.87h3.877v12.519Zm-1.957-14.158c-1.267,0-2.293-1.034-2.293-2.31s1.026-2.31,2.293-2.31,2.292,1.034,2.292,2.31-1.026,2.31-2.292,2.31Zm16.485,14.158h-3.858v-6.571c0-1.802-.685-2.809-2.111-2.809-1.551,0-2.362,1.048-2.362,2.809v6.571h-3.718V12.87h3.718v1.686s1.118-2.069,3.775-2.069,4.556,1.621,4.556,4.975v7.926Z" fill-rule="evenodd"></path></svg></a>
       </div>
       <p className="footer-text">
         © 2023 Computer Society<br></br>
         New Kandy Rd, Malabe, Sri Lanka
       </p>
-      <p className="footer-text">
-        IEEE is the world’s largest professional association advancing
-        innovation and technological excellence for the benefit of humanity.
-        IEEE and its members inspire a global community to innovate for a better
-        tomorrow through its highly cited publications, conferences, technology
-        standards, and professional and educational activities. IEEE is the
-        trusted “voice” for engineering, computing and technology information
-        around the globe.
-      </p>
+      
       <p className="footer-text">
         ©IEEECS — All rights reserved. Developed by IEEE Computer Society of SLIIT Web development team.
       </p>

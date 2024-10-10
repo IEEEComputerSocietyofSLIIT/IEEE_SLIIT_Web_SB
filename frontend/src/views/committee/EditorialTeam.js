@@ -56,7 +56,7 @@ const EditorialTeam = () => {
               <p className="member">Member</p>
             </b>
           </div>
-          <div className="lead-pic-member2">
+          {/* <div className="lead-pic-member2">
             <div className="rectangle-parent1">
               <div className="frame-child2" />
               <img
@@ -84,7 +84,7 @@ const EditorialTeam = () => {
               <p className="tharindu-bandara">Tharindu Bandara</p>
               <p className="member2">Member</p>
             </b>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
