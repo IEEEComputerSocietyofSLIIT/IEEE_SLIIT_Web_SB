@@ -3,7 +3,7 @@ import "./main.css"
 import lightImg from "./images/PNG/light.png";
 import missionImg from "./images/PNG/mission.png";
 import vissionImg from "./images/PNG/vission.png";
-import cover from "./images/cover.png";
+import cover from "./images/cover.jpg";
 import mission from "./images/mission1.png";
 import aboutus from "./images/about.png";
 import vision1 from "./images/vision1.png";
