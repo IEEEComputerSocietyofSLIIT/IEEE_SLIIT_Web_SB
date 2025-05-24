@@ -6,7 +6,7 @@ import IEEE from "../../images/logos/IEEE.png";
 import PES from "../../images/logos/PES.png";
 import RAS from "../../images/logos/RAS.png";
 import WIE from "../../images/logos/WIE.png";
-import Group from "../../images/SBteam.jpg";
+import Group from "../../images/SBteam.webp";
 import WebSection from "../../images/Welcome.png";
 
 const HomeNew = () => {
@@ -32,7 +32,7 @@ const HomeNew = () => {
             Join the Force Driving Technological Advancements
           </p>
           <a
-            href="#welcome"
+            href="http://bit.ly/IEEESLIITRegistrationForm"
             class="bg-white text-gray-900 hover:bg-white py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
           >
             Explore

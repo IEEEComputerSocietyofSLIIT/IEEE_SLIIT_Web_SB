@@ -209,6 +209,7 @@
   transform: rotate(-90deg);
   display: none;
 }
+
 .group-icon {
   height: 18.56rem;
   width: 18.56rem;
@@ -279,7 +280,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
-  text-align: right;
+  margin-left: -12rem;
   color: #000;
 }
 .frame-container {
@@ -693,6 +694,7 @@
 
 }
 @media screen and (max-width: 450px) {
+
   .executive-committee {
     font-size: 1.81rem;
     line-height: 2rem;
@@ -737,7 +739,10 @@
     line-height: 1.25rem;
     top: 10rem;
     text-align: center;
-    left: 3.7rem;
+  }
+  .pasan-senarath-treasurer-wrapper{
+    margin-left:0;
+    align-items: center;
   }
   .frame-container {
     gap: 9.69rem;
@@ -814,5 +819,324 @@
     width: 15rem;
     bottom: 2rem;
 
+  }
+}
+
+
+/* Updated classes for flipped layout */
+
+.frame-container-flipped {
+  align-self: stretch;
+  align-items: center;
+  position: relative;
+  gap: 9.69rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+  margin-top: 10rem;
+}
+
+.rectangle-group-flipped {
+  border-radius: 0 0 200px 200px;
+  max-width: 100%;
+  height: 47.63rem;
+  margin: 0 !important;
+  position: absolute;
+  left: 0;
+  bottom: -9.19rem;
+  background: linear-gradient(360deg, #00629b, rgba(0, 98, 155, 0));
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 2.63rem 2.5rem 2.63rem 2.56rem;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.rectangle-container-flipped {
+  align-self: stretch;
+  border-radius: 0 200px 200px 0;
+  background: linear-gradient(180.02deg, #ffa300, rgba(255, 163, 0, 0.64));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 2.38rem 2.56rem 2.44rem;
+  box-sizing: border-box;
+  gap: 2.19rem;
+  max-width: 100%;
+  z-index: 2;
+}
+
+.secretary-container-desktop-flipped {
+  margin: 0;
+  height: 5.38rem;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 2.06rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 3;
+  text-align: left;
+}
+
+.secretary-container-mobile-flipped {
+  margin: 0;
+  height: 5.38rem;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 2.06rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: none;
+  max-width: 100%;
+  z-index: 3;
+  text-align: center;
+  order: 2;
+}
+
+.pasan-senarath-treasurer-wrapper-flipped {
+  width: 29.94rem;
+  height: 5.38rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  text-align: right;
+  color: #000;
+}
+
+.pasan-senarath-treasurer-container-flipped {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 2.06rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+
+/* Media Queries for Responsive Design */
+
+@media screen and (max-width: 1050px) {
+  .secretary-container-desktop-flipped,
+  .secretary-container-mobile-flipped {
+    font-size: 2rem;
+    line-height: 1.63rem;
+  }
+  
+  .pasan-senarath-treasurer-container-flipped {
+    font-size: 2rem;
+    line-height: 1.63rem;
+  }
+  
+  .frame-container-flipped {
+    gap: 9.69rem;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 750px) {
+  .pasan-senarath-treasurer-wrapper-flipped {
+    margin-left: 10rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .secretary-container-desktop-flipped {
+    display: none;
+  }
+  
+  .secretary-container-mobile-flipped {
+    display: inline-block;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.25rem;
+    bottom: 2rem;
+    order: 2;
+  }
+  
+  .rectangle-container-flipped {
+    gap: 2.19rem;
+    padding-top: 1.56rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 1.56rem;
+    border-radius: 200px 200px 0 0;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #ffa300, rgba(255, 163, 0, 0));
+    justify-content: center;
+    align-items: center;
+    height: 480px;
+  }
+  
+  .group-icon {
+    order: 1;
+  }
+  
+  /* New classes for original rectangle-container mobile behavior */
+  .rectangle-container {
+    flex-direction: column !important;
+  }
+  
+  .rectangle-container .group-icon {
+    order: 1;
+  }
+  
+  .rectangle-container .devni-dharmasooriya-secretary-container {
+    order: 2;
+  }
+  
+  .pasan-senarath-treasurer-container-flipped {
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    top: 10rem;
+    text-align: center;
+    right: 3.7rem;
+  }
+  
+  .frame-container-flipped {
+    gap: 9.69rem;
+    bottom: 1.8rem;
+  }
+  
+  .rectangle-group-flipped {
+    border-radius: 200px 200px 0 0;
+    background: linear-gradient(180deg, #00629b, rgba(255, 163, 0, 0));
+    height: 480px;
+    top: 30rem;
+  }
+  
+  .pasan-senarath-treasurer-wrapper-flipped {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .secretary-container-desktop-flipped {
+    display: none;
+  }
+  
+  .secretary-container-mobile-flipped {
+    display: inline-block;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.25rem;
+    bottom: 2rem;
+    order: 2;
+  }
+  
+  .rectangle-container-flipped {
+    gap: 2.19rem;
+    padding-top: 1.56rem;
+    flex-direction: column;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 1.56rem;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #ffa300, rgba(255, 163, 0, 0));
+    justify-content: center;
+    align-items: center;
+    height: 480px;
+  }
+  
+  .group-icon {
+    order: 1;
+  }
+  
+  /* New classes for original rectangle-container mobile behavior */
+  .rectangle-container {
+    flex-direction: column !important;
+  }
+  
+  .rectangle-container .group-icon {
+    order: 1;
+  }
+  
+  .rectangle-container .devni-dharmasooriya-secretary-container {
+    order: 2;
+  }
+  
+  .pasan-senarath-treasurer-container-flipped {
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    top: 10rem;
+    text-align: center;
+    right: 3.7rem;
+  }
+  
+  .frame-container-flipped {
+    gap: 9.69rem;
+    bottom: 1.8rem;
+  }
+  
+  .rectangle-group-flipped {
+    height: 480px;
+    top: 30rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .secretary-container-desktop-flipped {
+    display: none;
+  }
+  
+  .secretary-container-mobile-flipped {
+    display: inline-block;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.25rem;
+    bottom: 2rem;
+    order: 2;
+  }
+  
+  .rectangle-container-flipped {
+    gap: 2.19rem;
+    padding-top: 1.56rem;
+    flex-direction: column;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 1.56rem;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #ffa300, rgba(255, 163, 0, 0));
+    justify-content: center;
+    align-items: center;
+    height: 480px;
+  }
+  
+  .group-icon {
+    order: 1;
+  }
+  
+  .pasan-senarath-treasurer-container-flipped {
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    top: 10rem;
+    text-align: center;
+    right: 3.7rem;
+  }
+  
+  .frame-container-flipped {
+    gap: 9.69rem;
+    bottom: 1.8rem;
+  }
+  
+  .rectangle-group-flipped {
+    height: 480px;
+    top: 30rem;
   }
 }
