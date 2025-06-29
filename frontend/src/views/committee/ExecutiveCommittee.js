@@ -1,8 +1,10 @@
 import "./ExecutiveCommittee.css";
 import Mahdhi from "../../images/committee members/Mahdy Abdullah.png";
 import Heshani from "../../images/committee members/Heshani Mandira.png";
+import Harindu from "../../images/committee members/Harindu Mallawaarachchi.png";
 import Prabasha from "../../images/committee members/Prabasha.png";
 import Senujee from "../../images/committee members/Senujee.png";
+import Kaveen from "../../images/committee members/Kaveen.png";
 import dean from "../../images/committee members/scan_image_1505796329-Dr__Pradeep.jpg";
 const MEMBERSHIP = () => {
   return (
@@ -109,32 +111,32 @@ const MEMBERSHIP = () => {
                   className="frame-inner"
                   loading="eager"
                   alt=""
-                  src={Heshani}
+                  src={Kaveen}
                 />
               </div>
               <div className="rectangle-container-flipped">
                 <div className="rectangle-div" />
                 <h3 className="secretary-container-desktop-flipped">
-                  <p className="devni-dharmasooriya">Senujee Dharmasooriya</p>
-                  <p className="secretary">SECRETARY</p>
+                  <p className="devni-dharmasooriya">Harindu Mallawaarachchi</p>
+                  <p className="secretary">TREASURER</p>
                 </h3>
 
                 <img
                   className="group-icon"
                   loading="eager"
                   alt=""
-                  src={Senujee}
+                  src={Harindu}
                 />
 
                 <h3 className="secretary-container-mobile-flipped">
-                  <p className="devni-dharmasooriya">Senujee Dharmasooriya</p>
-                  <p className="secretary">SECRETARY</p>
+                  <p className="devni-dharmasooriya">Harindu Mallawaarachchi</p>
+                  <p className="secretary">TREASURER</p>
                 </h3>
               </div>
               <div className="pasan-senarath-treasurer-wrapper-flipped">
                 <h3 className="pasan-senarath-treasurer-container-flipped">
-                  <p className="pasan-senarath">Pasan Senarath</p>
-                  <p className="treasurer">TREASURER</p>
+                  <p className="pasan-senarath-flipped">Kaveen Pasindumal</p>
+                  <p className="treasurer">WEB MASTER</p>
                 </h3>
               </div>
             </div>

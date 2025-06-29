@@ -256,6 +256,9 @@
   margin-block-start: 0;
   margin-block-end: 20px;
 }
+.pasan-senarath-flipped{
+  margin-left: 2rem;
+}
 .treasurer {
   margin: 0;
   color: #ffa300;
@@ -464,7 +467,7 @@
     line-height: 1.25rem;
     top: 10rem;
     text-align: center;
-    left: 3.7rem;
+    left: 1.5rem;
   }
   .frame-container {
     gap: 9.69rem;
@@ -568,7 +571,8 @@
     margin-left: 10rem;
   }
   .pasan-senarath-treasurer-wrapper{
-    margin-right: 10rem;
+    margin-left: 0;
+    margin-right: 17rem;
   }
 }
 
@@ -743,6 +747,7 @@
   .pasan-senarath-treasurer-wrapper{
     margin-left:0;
     align-items: center;
+    margin-right: 3rem;
   }
   .frame-container {
     gap: 9.69rem;
@@ -914,6 +919,7 @@
   max-width: 100%;
   text-align: right;
   color: #000;
+  margin-left: 10rem;
 }
 
 .pasan-senarath-treasurer-container-flipped {
@@ -927,6 +933,8 @@
   font-weight: 700;
   font-family: inherit;
   z-index: 1;
+  width: fit-content;
+  margin-bottom: 10rem;
 }
 
 /* Media Queries for Responsive Design */
@@ -950,7 +958,7 @@
 
 @media screen and (max-width: 900px) and (min-width: 750px) {
   .pasan-senarath-treasurer-wrapper-flipped {
-    margin-left: 10rem;
+    margin-left: 15rem;
   }
 }
 
@@ -1006,7 +1014,7 @@
     line-height: 1.25rem;
     top: 10rem;
     text-align: center;
-    right: 3.7rem;
+    right: 1.7rem;
   }
   
   .frame-container-flipped {
@@ -1023,6 +1031,7 @@
   
   .pasan-senarath-treasurer-wrapper-flipped {
     align-items: center;
+    margin-left: 0;
   }
 }
 
@@ -1127,7 +1136,7 @@
     line-height: 1.25rem;
     top: 10rem;
     text-align: center;
-    right: 3.7rem;
+    right: 1.7rem;
   }
   
   .frame-container-flipped {
