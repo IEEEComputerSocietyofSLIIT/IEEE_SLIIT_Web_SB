@@ -6,8 +6,20 @@ import heroimg from "./images/event-cover.jpg";
 
 import iaspire1 from "../../images/events/iaspire/IASpire-1.jpg"
 import iaspire2 from "../../images/events/iaspire/IASpire-2.jpg"
+import placeholder from "../../images/events/placeholder.png"
 
 import intern24Images from "../../images/events/intern24"
+import perpetual4Images from "../../images/events/perpetual4"
+import aureas24Images from "../../images/events/aureas24"
+import sliitxtremeImages from "../../images/events/sliitxtreme"
+import webwrap1Images from "../../images/events/webwrap1"
+import pixel1Images from "../../images/events/pixel1"
+import ieeeday24Images from "../../images/events/ieeeday24"
+import intellect1Images from "../../images/events/intellect1"
+import launchpad24Images from "../../images/events/launchpad24"
+import ieeesynergy25Images from "../../images/events/ieeesynergy25"
+import venturify24Images from "../../images/events/venturify24"
+
 
 
 
@@ -67,6 +79,194 @@ Undergraduates often face challenges in securing internships due to a lack of aw
       "5:00 PM - Q&A Session"
     ]
   },
+  {
+  "id": 3,
+  "name": "Perpetual 4.0",
+  "description": "A charity-based program aimed at addressing educational needs and celebrating cultural heritage in a rural school, reflecting IEEE's values of diversity and social responsibility.",
+  "date": "2024-04-28",
+  "time": "",
+  "location": "CP/MA/Dodamdeniya Viduhala, Matale Division",
+  "images": [perpetual4Images.image1,perpetual4Images.image2,perpetual4Images.image3],
+  "linkStatus": false,
+  "googleFormLink": "",
+  "organizer": "IEEE Student Branch of SLIIT",
+  "capacity": "",
+  "tags": ["Charity", "Community", "Education", "Cultural"],
+  "fullDescription": "Perpetual 4.0 is a charity-based program that exemplifies the alignment of IEEE's values with the goals of diversity, empowering individuals through technology, addressing societal challenges, and promoting a sense of community responsibility. Held at CP/MA/Dodamdeniya Viduhala, a rural school in the Matale Division, the event was designed to address the educational needs of underprivileged students by providing essential stationery and celebrating cultural heritage through a special \"Awurudu Festival.\" The event was branded as \"අත්වැල,\" reflecting its focus on charity and humanitarian activities. On April 28, 2024, Perpetual 4.0 was executed with a focus on delivering a meaningful and joyful experience for the students.",
+  "speakers": ["", ""],
+  "agenda": []
+},
+{
+  "id": 4,
+  "name": "Aureus ‘24",
+  "description": "A hands-on electronic design workshop aimed at first and second-year undergraduates, organized by the IEEE PES Chapter of SLIIT.",
+  "date": "2024-05-04",
+  "time": "",
+  "location": "",
+  "images": [aureas24Images.image1],
+  "linkStatus": false,
+  "googleFormLink": "",
+  "organizer": "IEEE Power and Energy Society Chapter, SLIIT",
+  "capacity": 100,
+  "tags": ["Workshop", "Electronics", "Engineering"],
+  "fullDescription": "Aureus ‘24, organized by the Power and Energy Society Chapter of the IEEE Student Branch of SLIIT, was held on the 4th of May 2024, with over 100 participants. The event focused on providing hands-on experience and practical expertise in electronic design for undergraduate students. It especially targeted tech enthusiasts in their early academic years and included workshops and interactive sessions covering tools, resources, and career paths related to electronic design.",
+  "speakers": ["", ""],
+  "agenda": []
+},
+{
+  "id": 5,
+  "name": "INIZIO",
+  "description": "A technical webinar focused on IoT and smart device connectivity, organized by the IEEE RAS Chapter of SLIIT.",
+  "date": "2024-05-12",
+  "time": "",
+  "location": "",
+  "images": [placeholder],
+  "linkStatus": false,
+  "googleFormLink": "",
+  "organizer": "IEEE Robotics and Automation Society Chapter, SLIIT",
+  "capacity": "",
+  "tags": ["Webinar", "IoT", "Technology"],
+  "fullDescription": "INIZIO, a technical webinar organized by the Robotics and Automation Society Chapter of the IEEE Student Branch at SLIIT, was held on 12th May 2024. Featuring Mr. Anjana Vishvanath as the guest speaker, the session explored advancements in the Internet of Things (IoT) and smart device connectivity, highlighting their transformative impact on technology and daily life.",
+  "speakers": ["Mr. Anjana Vishvanath"],
+  "agenda": []
+},
+{
+  "id": 6,
+  "name": "WebWrap 1.0",
+  "description": "A multi-session event focused on frontend and backend web development, GitHub, and web monetization.",
+  "date": "2024-06-26",
+  "time": "",
+  "location": "",
+  "images": [webwrap1Images.image1,webwrap1Images.image2],
+  "linkStatus": false,
+  "googleFormLink": "",
+  "organizer": "IEEE Computer Society Chapter, SLIIT & CSNE Student Community",
+  "capacity": "",
+  "tags": ["Web Development", "Workshop", "GitHub", "Entrepreneurship"],
+  "fullDescription": "WebWrap 1.0, organized by the Computer Society Chapter of the IEEE Student Branch of SLIIT and CSNE Student Community 2024/25, took place from 26th June to 6th July 2024. The event offered sessions on frontend and backend development, GitHub usage, and monetizing websites. Sessions featured notable speakers including Mr. Pasindu Dinal, Mr. Ranula Gihara, Mr. Ashen Wijesinghe, and others. The final session included networking, IEEE benefits, and career guidance.",
+  "speakers": ["Mr. Pasindu Dinal", "Mr. Ranula Gihara", "Mr. Ashen Wijesinghe", "Mr. Pawan Senpura", "Mr. Jathurshan Manistar", "Prof. Anuradha Jayakody", "Ms. Shashika Lokuliyana", "Ms. Pipuni Wijesiri", "Ms. Thamali Munasinghe"],
+  "agenda": []
+},
+{
+  "id": 7,
+  "name": "Pixel+ 1.0",
+  "description": "A UI/UX design workshop featuring sessions for beginners and advanced learners, organized by IEEE CS Chapter of SLIIT.",
+  "date": "2024-08-26",
+  "time": "",
+  "location": "",
+  "images": [pixel1Images.image1],
+  "linkStatus": false,
+  "googleFormLink": "",
+  "organizer": "IEEE Computer Society Chapter, SLIIT",
+  "capacity": "",
+  "tags": ["UI/UX", "Design", "Workshop"],
+  "fullDescription": "Pixel+ 1.0, organized by the IEEE CS Chapter of SLIIT, was aimed at training participants in user-centered design. Two sessions were conducted: one on 26th August 2024 titled 'UI/UX Essentials for Beginners' by Ms. Supun Shashini, and another on 29th August 2024 titled 'Turning Design Concepts into Functional Realities' by Mr. Eishan Weerasinghe. The event helped students grasp essential design principles and apply them practically.",
+  "speakers": ["Ms. Supun Shashini", "Mr. Eishan Weerasinghe"],
+  "agenda": []
+},
+{
+  "id": 8,
+  "name": "SLIITXtreme 3.0",
+  "description": "A hackathon to prepare students for the IEEEXtreme 18.0 competition, with technical sessions and an award ceremony.",
+  "date": "2024-09-28",
+  "time": "",
+  "location": "",
+  "images": [sliitxtremeImages.image1,sliitxtremeImages.image2,sliitxtremeImages.image3,sliitxtremeImages.image4,sliitxtremeImages.image5,sliitxtremeImages.image6],
+  "linkStatus": false,
+  "googleFormLink": "",
+  "organizer": "IEEE CS Chapter & SESC, SLIIT",
+  "capacity": "",
+  "tags": ["Hackathon", "Coding", "Competitive Programming"],
+  "fullDescription": "SLIITXtreme 3.0 was a nine-hour hackathon organized by the IEEE CS Chapter and Software Engineering Student Community of SLIIT. Held across multiple dates in September and October 2024, it featured sessions from IEEE leaders and competitive programming experts. The event ended with an award ceremony sponsored by Unilever, offering certificates, cash prizes, and free IEEE memberships.",
+  "speakers": ["Mr. Eranga Kodithuwakku", "Mr. Heshan Kodithuwakku", "Mr. Vishan Jayasinghearachchi", "Mr. Apiram Rajamohan"],
+  "agenda": []
+},
+{
+  "id": 9,
+  "name": "IEEE Day 2024",
+  "description": "A celebration of IEEE’s global legacy featuring chapter showcases, games, and beginner sessions.",
+  "date": "2024-10-10",
+  "time": "",
+  "location": "",
+  "images": [ieeeday24Images.image1,ieeeday24Images.image2,ieeeday24Images.image3],
+  "linkStatus": false,
+  "googleFormLink": "",
+  "organizer": "IEEE Student Branch of SLIIT",
+  "capacity": "",
+  "tags": ["Community", "Celebration", "Non-Technical"],
+  "fullDescription": "IEEE Day 2024 was a non-technical event organized by the IEEE Student Branch of SLIIT to celebrate the global legacy of IEEE. The event showcased the work of various chapters including WIE, CS, PES, RAS, and IAS. It featured games, quizzes, and a session titled 'IEEE for Dummies' by Mr. Sachintha Wickramasinghe. A session by Mr. Heshan Kodithuwakku raised awareness about IEEEXtreme, making the event fun, informative, and impactful.",
+  "speakers": ["Mr. Sachintha Wickramasinghe", "Mr. Heshan Kodithuwakku"],
+  "agenda": []
+},
+{
+  "id": 10,
+  "name": "Intellect 1.0",
+  "description": "A platform for innovative solutions in the power and energy sector aimed at improving system reliability and addressing infrastructure challenges.",
+  "date": "2024-08-26",
+  "time": "",
+  "location": "",
+  "images": [intellect1Images.image1,intellect1Images.image2],
+  "linkStatus": false,
+  "googleFormLink": "",
+  "organizer": "IEEE Student Branch of SLIIT",
+  "capacity": "",
+  "tags": ["Energy", "Innovation", "Power Systems"],
+  "fullDescription": "The power and energy sectors face significant challenges that demand immediate and innovative solutions. Intellect 1.0 was launched as a response to these pressing challenges, with a mission to inspire innovative thinking and bring forth practical solutions. The event serves as a platform for students, researchers, and young professionals to engage in critical discussions, explore new ideas, and propose implementable strategies to improve power system reliability, reduce inefficiencies, and enhance the resilience of power networks.",
+  "speakers": ["", ""],
+  "agenda": []
+},
+{
+  "id": 11,
+  "name": "Launchpad ‘24",
+  "description": "A webinar series focused on content creation, featuring two leading Sri Lankan YouTubers to inspire digital storytelling.",
+  "date": "2024-12-20",
+  "time": "",
+  "location": "",
+  "images": [launchpad24Images.image1],
+  "linkStatus": false,
+  "googleFormLink": "",
+  "organizer": "IEEE WIE Affinity Group, SLIIT",
+  "capacity": "",
+  "tags": ["Webinar", "Content Creation", "Digital Media"],
+  "fullDescription": "Launchpad ‘24, organized by the WIE Affinity Group of SLIIT, was a non-technical webinar series aimed at aspiring digital creators. The first session on 20th December 2024 was conducted by Mr. Malinda Alahakoon (TechTrack), who spoke on developing a creative voice. The second session on 21st December 2024 featured Mr. Pasindu Jayasinghe (SL Geek), who guided attendees on monetization and branding. The event successfully motivated students to explore careers in digital media.",
+  "speakers": ["Mr. Malinda Alahakoon", "Mr. Pasindu Jayasinghe"],
+  "agenda": []
+},
+{
+  "id": 12,
+  "name": "Venturify 2024",
+  "description": "An entrepreneurship series focused on startup development, funding, and innovation, ending with a physical workshop.",
+  "date": "2024-12-22",
+  "time": "7:00 PM",
+  "location": "Curtin University Colombo",
+  "images": [venturify24Images.image1,venturify24Images.image2,venturify24Images.image3],
+  "linkStatus": false,
+  "googleFormLink": "",
+  "organizer": "IEEE Student Branch of SLIIT",
+  "capacity": "",
+  "tags": ["Entrepreneurship", "Startups", "Innovation"],
+  "fullDescription": "Venturify 2024 was a multi-phase entrepreneurship event with two online workshops and a final physical session on February 2nd. The first session focused on developing business ideas and was held on 22nd December 2024. The second addressed startup foundations like funding and customer acquisition. The final in-person event at Curtin University Colombo featured a keynote by Peter D’Almeida, interactive workshops, and awards for innovative startup strategies.",
+  "speakers": ["Peter D’Almeida"],
+  "agenda": []
+},
+{
+  "id": 13,
+  "name": "Synergy Springs 2025",
+  "description": "A full-day leadership and soft skills training program organized for IEEE members to build communication, collaboration, and public speaking abilities.",
+  "date": "2025-03-02",
+  "time": "",
+  "location": "",
+  "images": [ieeesynergy25Images.image1],
+  "linkStatus": false,
+  "googleFormLink": "",
+  "organizer": "IEEE IAS Chapter, SLIIT",
+  "capacity": "",
+  "tags": ["Leadership", "Soft Skills", "Teamwork"],
+  "fullDescription": "Synergy Springs 2025, organized by the IEEE IAS Chapter of SLIIT, was held on March 2nd, 2025. The event featured seminars, games, workshops, and interactive activities focused on leadership, teamwork, and communication. Highlights included an IEEE session by Mr. Yohan Joseph, a balloon tower challenge, Pictionary, a tunnel relay game, and the 'Secret Train.' A public speaking and debate session by Mr. Ranuka Perera helped boost communication skills. The day ended with an Iftar ceremony, celebrating unity and collaboration.",
+  "speakers": ["Mr. Yohan Joseph", "Mr. Ranuka Perera", "Chathumina Kalatuwage"],
+  "agenda": []
+},
+
 ];
 const scrollToTopWithFallback = () => {
   if ('scrollBehavior' in document.documentElement.style) {
@@ -107,11 +307,14 @@ const EventCard = ({ event, onClick }) => (
           <Calendar className="w-4 h-4 mr-2 flex-shrink-0" />
           <span className="text-sm font-medium">{new Date(event.date).toLocaleDateString()}</span>
         </div>
+      {event.time &&
         <div className="flex items-center text-blue-600">
           <Clock className="w-4 h-4 mr-2 flex-shrink-0" />
           <span className="text-sm font-medium">{event.time}</span>
         </div>
+      }
       </div>
+      
 
       {/* Apply Now Button - only for upcoming events */}
       {new Date(event.date) > new Date() && (
@@ -222,8 +425,9 @@ const EventDetailPage = ({ event, onBack }) => (
               ))}
             </ul>
           </div> }
-
-          <div className="mb-6 sm:mb-8">
+          {
+            event.agenda.legth > 0 && 
+            <div className="mb-6 sm:mb-8">
             <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">Agenda</h2>
             <div className="space-y-2 sm:space-y-3">
               {event.agenda.map((item, index) => (
@@ -233,6 +437,8 @@ const EventDetailPage = ({ event, onBack }) => (
               ))}
             </div>
           </div>
+          }
+          
         </div>
 
         {/* Sidebar */}
@@ -253,14 +459,16 @@ const EventDetailPage = ({ event, onBack }) => (
                   })}</p>
                 </div>
               </div>
+              {event.time &&
 
-              <div className="flex items-start">
+                <div className="flex items-start">
                 <Clock className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 mr-2 sm:mr-3 mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-semibold text-sm sm:text-base">Time</p>
                   <p className="text-gray-600 text-xs sm:text-sm">{event.time}</p>
                 </div>
               </div>
+              }
 
               <div className="flex items-start">
                 <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 mr-2 sm:mr-3 mt-1 flex-shrink-0" />
@@ -446,7 +654,7 @@ export const News = () => {
                 ref={pastRef}
                 style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
               >
-                {pastEvents.map((event) => (
+                {pastEvents.slice().reverse().map((event) => (
                   <EventCard 
                     key={event.id} 
                     event={event} 
