@@ -23,10 +23,10 @@ const MEMBERSHIP = () => {
 
         <div className="f-r-a-m-e2">
           <h2 className="executive-committee">BRANCH COUNSELLOR</h2>
-          <div class="mx-auto flex align-center justify-center mx-auto">
+          <div class="mx-auto flex align-center justify-center">
             <article class="w-full md:w-4/5 md:items-center md:flex grid rounded-3xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-105 transform translate duration-300">
               <div class="relative md:w-1/2 flex items-end overflow-hidden rounded-xl">
-                <img src={dean} alt="Hotel Photo" className="w-full " />
+                <img src={dean} alt="Hotel Photo" className="w-full "/>
               </div>
 
               <div class="mt-1 p-2 md:p-10">
