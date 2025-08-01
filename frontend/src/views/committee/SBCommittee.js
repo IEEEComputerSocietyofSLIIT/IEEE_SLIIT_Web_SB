@@ -22,7 +22,7 @@ const SBCommittee = () => {
           <CommitteeChairpersons />
           <EditorialTeam />
           <PublicityTeam />
-          <MembershipDevTeam />
+          {/* <MembershipDevTeam /> */}
           <FinanceTeam />
           <LogisticsTeam />
           <VolunteerManagementTeam />

@@ -1,7 +1,5 @@
 import "./FinanceTeam.css";
-import maheshi from "../../images/committee members/Maheshi_Finance member - Maheshi De silva-modified.png"
-import shanaya from "../../images/committee members/BCFAFCC4-32CA-4740-BF96-F94B007A4479 - Shanaya Pereira-modified.png"
-import pasan from "../../images/committee members/Pasan.png";
+import Kaveen from "../../images/committee members/finance/Kaveen Hettiarachchi.png";
 
 const FinanceTeam = () => {
   return (
@@ -30,15 +28,15 @@ const FinanceTeam = () => {
                 className="lead-pic-icon3"
                 loading="eager"
                 alt=""
-                src={pasan}
+                src={Kaveen}
               />
             </div>
             <b className="pasan-senarath-leader-container">
-              <p className="pasan-senarath1">Pasan Senarath</p>
+              <p className="pasan-senarath1">Kaveen Hettiarachchi</p>
               <p className="leader3">Leader</p>
             </b>
           </div>
-          <div className="leader-frame1">
+          {/* <div className="leader-frame1">
             <div className="rectangle-parent9">
               <div className="frame-child10" />
               <img
@@ -67,7 +65,7 @@ const FinanceTeam = () => {
               <p className="kavindri-perera1">Maheshi De Silva</p>
               <p className="member8">Member</p>
             </b>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 import "./LogisticTeam.css";
-import abinayan from "../../images/committee members/Abinayan Rajendran-modified.png";
-import himansa from "../../images/committee members/Himansa_logistics team member - sakith himansa-modified.png"
+import Linal from "../../images/committee members/logistics/linal.png";
+import HATHIM from "../../images/committee members/logistics/HAATHEEM.png"
+import Kusal from "../../images/committee members/logistics/Kusal.png"
 
 const LogisticsTeam = () => {
     return(
@@ -29,11 +30,11 @@ const LogisticsTeam = () => {
                 className="lead-pic-icon3"
                 loading="eager"
                 alt=""
-                src={abinayan}
+                src={Linal}
               />
             </div>
             <b className="pasan-senarath-leader-container">
-              <p className="pasan-senarath1">Abinayan Rajendran</p>
+              <p className="pasan-senarath1">Linal de zoysa</p>
               <p className="leader3">Leader</p>
             </b>
           </div>
@@ -44,15 +45,29 @@ const LogisticsTeam = () => {
                 className="member-icon7"
                 loading="eager"
                 alt=""
-                src={himansa}
+                src={HATHIM}
               />
             </div>
             <b className="shanaya-pereira-member-container">
-              <p className="shanaya-pereira">Himansa Perera</p>
+              <p className="shanaya-pereira">HATHIM M.J.M</p>
               <p className="member7">Member</p>
             </b>
           </div>
-
+          <div className="leader-frame1">
+            <div className="rectangle-parent9">
+              <div className="frame-child10" />
+              <img
+                className="member-icon7"
+                loading="eager"
+                alt=""
+                src={Kusal}
+              />
+            </div>
+            <b className="shanaya-pereira-member-container">
+              <p className="shanaya-pereira">Kusal Senevirathna </p>
+              <p className="member7">Member</p>
+            </b>
+          </div>
         </div>
       </div>
     </div>

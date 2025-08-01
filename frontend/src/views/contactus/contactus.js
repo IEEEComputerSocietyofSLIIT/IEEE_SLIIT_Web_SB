@@ -106,23 +106,23 @@ const Contactus = () => {
             <div class="row gy-2 gy-xl-3 p-4 p-xl-5">
             <h2 class="h2 mb-3 fw-semibold text-light">Contact Us</h2>
             <div className=' rounded-4'>
-            <p class="lead fs-6 fw-semibold mb-1 rounded-5 text-dark bg-warning d-inline-block px-2">Yohan Joseph</p>
+            <p class="lead fs-6 fw-semibold mb-1 rounded-5 text-dark bg-warning d-inline-block px-2">Mahdy Nawfar</p>
 
             <p class="lead fs-6  mb-0">Chairperson of IEEE Student Branch of SLIIT</p>
             <p class="lead fs-6  ">+94 71 995 5200</p>
             </div>
             <div className='  rounded-4'>
-            <p class="lead fs-6 fw-semibold mb-1 rounded-5 text-dark bg-warning d-inline-block px-2">Prabhasa Dharmarathne</p>
+            <p class="lead fs-6 fw-semibold mb-1 rounded-5 text-dark bg-warning d-inline-block px-2">Chathumina Kalatuwage</p>
             <p class="lead fs-6  mb-0">Vice Chairperson of IEEE Student Branch of SLIIT</p>
             <p class="lead fs-6  ">+94 76 913 5658</p>
             </div>
             <div className='  rounded-4'>
-            <p  class="lead fs-6 fw-semibold mb-1 rounded-5 text-dark bg-warning d-inline-block px-2">Devni Dharmasooriya</p>
+            <p  class="lead fs-6 fw-semibold mb-1 rounded-5 text-dark bg-warning d-inline-block px-2">Senujee Wickramasooriya</p>
             <p class="lead fs-6  mb-0">Secretary of IEEE Student Branch of SLIIT</p>
             <p class="lead fs-6  ">+94 77 713 0475</p>
             </div>
             <div className='  rounded-4'>
-            <p class="lead fs-6 fw-semibold mb-1 rounded-5 text-dark bg-warning d-inline-block px-2">Pasan Senerath</p>
+            <p class="lead fs-6 fw-semibold mb-1 rounded-5 text-dark bg-warning d-inline-block px-2">Mandira Polgampala</p>
             <p class="lead fs-6 mb-0">Treasurer of IEEE Student Branch of SLIIT</p>
             <p class="lead fs-6 ">+94 71 189 1125</p>
             </div>

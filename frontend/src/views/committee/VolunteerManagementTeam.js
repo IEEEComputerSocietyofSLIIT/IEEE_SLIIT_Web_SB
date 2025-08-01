@@ -1,7 +1,6 @@
-import janith from "../../images/committee members/Janith_Sachintha-Volunteer_Management_Team_Lead - Janith Sachintha-modified.png";
-import './VolunteerManagementTeam.css';
-import sandesh from "../../images/committee members/Sandesh Deshapriya_volunteer management team membe - Sandesh Deshapriya-modified.png";
-import charith from "../../images/committee members/Charith Yohan_Volunteer Management Team - Charith Yohan-modified.png";
+import Ruwanya from "../../images/committee members/volunteer/Ruwanya.png"
+import Shahaam from "../../images/committee members/volunteer/SHAHAAM.png";
+import Thavisha from "../../images/committee members/volunteer/Thavisha.png";
 
 const VolunteerManagementTeam = () => {
   return (
@@ -30,11 +29,11 @@ const VolunteerManagementTeam = () => {
                 className="lead-pic-icon3"
                 loading="eager"
                 alt=""
-                src={janith}
+                src={Shahaam}
               />
             </div>
             <b className="pasan-senarath-leader-container">
-              <p className="pasan-senarath1">Janith Sachintha</p>
+              <p className="pasan-senarath1">Shahaam Marzook</p>
               <p className="leader3">Leader</p>
               {/* <div className="socialIconss">
                 <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -55,11 +54,11 @@ const VolunteerManagementTeam = () => {
                 className="member-icon7"
                 loading="eager"
                 alt=""
-                src={sandesh}
+                src={Ruwanya}
               />
             </div>
             <b className="shanaya-pereira-member-container">
-              <p className="shanaya-pereira">Sandesh Deshapriya</p>
+              <p className="shanaya-pereira">Ruwanya Athukorala </p>
               <p className="member7">Member</p>
               
             </b>
@@ -71,13 +70,12 @@ const VolunteerManagementTeam = () => {
                 className="member-icon7"
                 loading="eager"
                 alt=""
-                src={charith}
+                src={Thavisha}
               />
             </div>
             <b className="shanaya-pereira-member-container">
-              <p className="shanaya-pereira">Charith Yohan</p>
+              <p className="shanaya-pereira">Thavisha Wimalarathne</p>
               <p className="member7">Member</p>
-              
             </b>
           </div>
 

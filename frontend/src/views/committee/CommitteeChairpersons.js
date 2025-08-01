@@ -1,5 +1,5 @@
 import "./CommitteeChairpersons.css";
-import adithya from "../../images/committee members/Adithya_CS_Chairpersone - Adithya Liyanaarachchi-modified.png";
+import azri from "../../images/committee members/Azri-Muhsin.png";
 import ramudu from "../../images/committee members/Ramudu Welikala - Chairperson-modified.png"
 import udula from "../../images/committee members/Wijethunga HNUD - Chair.jpg"
 import yashoda from "../../images/committee members/Yasodas.jpg"
@@ -22,11 +22,11 @@ const CommitteeChairpersons = () => {
                 className="lead-pic-icon1"
                 loading="eager"
                 alt=""
-                src={adithya}
+                src={azri}
               />
             </div>
             <b className="niumi-halmillawewa-leader-container">
-              <p className="niumi-halmillawewa">Adithya Liyanaarachchi</p>
+              <p className="niumi-halmillawewa">Azri Muhsin</p>
               <p className="text-sm text-[#ffa300]">IEEE Computer Society</p>
             </b>
           </div>

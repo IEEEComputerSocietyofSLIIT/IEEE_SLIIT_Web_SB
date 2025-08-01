@@ -1,7 +1,7 @@
 import "./PublicityTeam.css";
-import nilumi from "../../images/committee members/NIUMI HALMILLAWEWA_publicity lead - Niumi Halmillawewa-modified.png";
-import anjula from "../../images/committee members/Anjula - Publicity Team Member  - Anjula Hirimuthugoda-modified.png";
-import mithila from "../../images/committee members/Mithila Samarawickrama_Publicity Team Member - Mithila Samarawickrama-modified.png"
+import Thisuri from "../../images/committee members/publicity/Thisuri Peiris.png";
+import Niruna from "../../images/committee members/publicity/Niruna Shyamal.png";
+import Thisula from "../../images/committee members/publicity/Thisula Lewhan.png"
 
 const PublicityTeam = () => {
   return (
@@ -33,11 +33,11 @@ const PublicityTeam = () => {
                 className="lead-pic-icon1"
                 loading="eager"
                 alt=""
-                src={nilumi}
+                src={Thisuri}
               />
             </div>
             <b className="niumi-halmillawewa-leader-container">
-              <p className="niumi-halmillawewa">Niumi Halmillawewa</p>
+              <p className="niumi-halmillawewa">Thisuri Peiris</p>
               <p className="leader1">Leader</p>
             </b>
           </div>
@@ -48,11 +48,11 @@ const PublicityTeam = () => {
                 className="member-icon3"
                 loading="eager"
                 alt=""
-                src={anjula}
+                src={Niruna}
               />
             </div>
             <b className="anjula-hirimuthugoda-member-container">
-              <p className="anjula-hirimuthugoda">Anjula Hirimuthugoda</p>
+              <p className="anjula-hirimuthugoda">Niruna Karunarathne </p>
               <p className="member3">Member</p>
             </b>
           </div>
@@ -63,11 +63,11 @@ const PublicityTeam = () => {
                 className="member-icon4"
                 loading="eager"
                 alt=""
-                src={mithila}
+                src={Thisula}
               />
             </div>
             <b className="mithila-samarawickrama-member-container">
-              <p className="mithila-samarawickrama">Mithila Samarawickrama</p>
+              <p className="mithila-samarawickrama">Thisula Lewhan </p>
               <p className="member4">Member</p>
             </b>
           </div>

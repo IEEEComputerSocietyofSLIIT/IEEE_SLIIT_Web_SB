@@ -19,7 +19,7 @@ const HomeNew = () => {
             alt="Background Image"
             class="object-cover object-center w-full h-[100vh]"
           />
-          <div class="absolute inset-0 bg-black opacity-60"></div>
+          <div class="absolute inset-0 bg-black opacity-40"></div>
         </div>
 
         <div class="relative z-10 flex flex-col px-[24px] w-fit mx-auto justify-center items-center h-full text-center">

@@ -481,8 +481,8 @@ const EventDetailPage = ({ event, onBack }) => (
               <div className="flex items-start">
                 <Users className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 mr-2 sm:mr-3 mt-1 flex-shrink-0" />
                 <div>
-                  <p className="font-semibold text-sm sm:text-base">Capacity</p>
-                  <p className="text-gray-600 text-xs sm:text-sm">{event.capacity} participants</p>
+                  <p className="font-semibold text-sm sm:text-base">Event Type</p>
+                  <p className="text-gray-600 text-xs sm:text-sm">{event.type || "N/A"}</p>
                 </div>
               </div>
 
@@ -493,7 +493,7 @@ const EventDetailPage = ({ event, onBack }) => (
             </div>
 
             {/* Register Button */}
-            {new Date(event.date) > new Date() && (
+            {true && (
               <div className="mt-4 sm:mt-6">
                 <button
                   className={`w-full py-2 px-4 sm:py-3 sm:px-6 rounded-lg font-semibold transition-all duration-300 text-sm sm:text-base ${
@@ -509,7 +509,22 @@ const EventDetailPage = ({ event, onBack }) => (
                 >
                   {event.linkStatus ? "Register Now" : "Registration Closed"}
                 </button>
+                <button
+                  className={`w-full mt-4 py-2 px-4 sm:py-3 sm:px-6 rounded-lg font-semibold transition-all duration-300 text-sm sm:text-base ${
+                    event.stayUpdatedLink
+                      ? "bg-gradient-to-r from-purple-400 to-pink-500 text-white hover:shadow-lg hover:from-purple-500 hover:to-pink-600"
+                      : "bg-gray-400 text-gray-700 cursor-not-allowed"
+                  }`}
+                  onClick={() => {
+                    if (event.stayUpdatedLink) {
+                      window.open(event.stayUpdatedLink, '_blank');
+                    }
+                  }}
+                >
+                  {event.stayUpdatedLink ? "Stay Updated" : "Updates Unavailable"}
+                </button>
               </div>
+              
             )}
           </div>
         </div>

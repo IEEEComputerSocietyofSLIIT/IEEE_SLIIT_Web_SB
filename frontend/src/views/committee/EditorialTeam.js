@@ -1,8 +1,7 @@
 import "./EditorialTeam.css";
-import abiru from "../../images/committee members/FB_IMG_1676741899270 - Abiru Abayapala-modified.png";
-import tharindu from "../../images/committee members/Tharindu Bandara - BookOfPanda-modified.png";
-import chamindu from "../../images/committee members/dilneth-modified.png";
-import dasith from "../../images/committee members/Dasith_Editorial_Team_Member - Dasith Sathpura-modified.png"
+import Chamika from "../../images/committee members/editors/Chamika.png";
+import Kavinga from "../../images/committee members/editors/Kavinga.png";
+import Isira from "../../images/committee members/editors/Isira.png";
 
 const EditorialTeam = () => {
   return (
@@ -21,7 +20,7 @@ const EditorialTeam = () => {
                 className="lead-pic-icon"
                 loading="eager"
                 alt=""
-                src={abiru}
+                src={Chamika}
               />
             </div>
             <b className="abiru-abayapala-leader-container">
@@ -36,11 +35,26 @@ const EditorialTeam = () => {
                 className="member-icon"
                 loading="eager"
                 alt=""
-                src={chamindu}
+                src={Isira}
               />
             </div>
             <b className="chamindu-dilneth-member-container">
-              <p className="chamindu-dilneth">Chamindu Dilneth</p>
+              <p className="chamindu-dilneth">Isira Sahanjith </p>
+              <p className="member">Member</p>
+            </b>
+          </div>
+          <div className="lead-pic-member1">
+            <div className="frame-div">
+              <div className="frame-child1" />
+              <img
+                className="member-icon"
+                loading="eager"
+                alt=""
+                src={Kavinga}
+              />
+            </div>
+            <b className="chamindu-dilneth-member-container">
+              <p className="chamindu-dilneth">Kavinga Aluvihare </p>
               <p className="member">Member</p>
             </b>
           </div>
