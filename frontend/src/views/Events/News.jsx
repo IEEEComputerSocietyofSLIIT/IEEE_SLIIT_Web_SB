@@ -38,7 +38,7 @@ const eventsData = [
     linkStatus: false,
     googleFormLink: "",
     organizer: "IEEE Student Branch of SLIIT",
-    capacity: 50,
+    capacity:" ",
     tags: [],
     fullDescription: `IASpire is a strategic initiative aimed at bridging the gap between academic knowledge and industry requirements. Through a structured approach, the program unfolded across two phases, each serving a specific purpose in enhancing participants' understanding in areas such as Industry 4.0, automation, and PLC technologies. 
 The sessions shed light on what undergraduates study in a university setting and also emphasized the practical skills essential for applying theoretical knowledge. It bridged the gap between academic learning and the hands-on skills required in the industry. 
@@ -64,7 +64,7 @@ The event was held in 2 phases: A webinar session and a physical workshop. IASpi
     linkStatus: true,
     googleFormLink: "https://forms.google.com/sample2",
     organizer: "IEEE Student Branch of SLIIT",
-    capacity: 100,
+    capacity: "",
     tags: ["Seminar", "AI", "Machine Learning"],
     fullDescription: `Path to Internship ‘24 was organized as a collaborative effort between the IAS Chapter of SLIIT 
     and the IEEE Student Branch of SLIIT. The event was organized to raise awareness among undergraduates on the value of hands-on
@@ -266,7 +266,42 @@ Undergraduates often face challenges in securing internships due to a lack of aw
   "speakers": ["Mr. Yohan Joseph", "Mr. Ranuka Perera", "Chathumina Kalatuwage"],
   "agenda": []
 },
-
+{
+  "id": 14,
+  "name": "EMBED X - Robotics Workshop",
+  "description": "EMBED X - Robotics Workshop : A Hands-On Robotics Workshop by IEEE RAS, SLIIT",
+  "date": "",
+  "upcoming":true,
+  "time": "8:30 AM onwards",
+  "location": "Engineering Auditorium 2 (EA2)",
+  "images": [],
+  "linkStatus": true,
+  "stayUpdatedLink":"https://linktr.ee/ieee_ras_sliit",
+  "googleFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSf6VhqjZZMPLTitmftkXt-hgukgloEcV1r0tK_SRyr9HWcwQQ/viewform",
+  "organizer": "IEEE RAS Chapter, SLIIT",
+  "capacity": "100 only",
+  "type":"Physical",
+  "tags": ['Robotics'],
+  "fullDescription": `
+    EMBED X is a practical robotics workshop designed to introduce students to the fundamentals of embedded systems and robotics, with a special focus on microcontroller programming using the ESP32.
+    \n ‎ \n
+    In this session, participants will gain hands on experience working with the ESP32 development board, guided by expert instructors from our Knowledge & Hardware Partner - Gavesha Labs. Students will learn to control the ESP32 using MicroPython, with interactive tasks can be completed through their own mobile devices.
+    \n‎\n
+    🔧 What’s Inside:
+      \n
+      \t 🟢 Introduction to embedded systems and robotics\n
+      \t 🟢 Programming ESP32 with MicroPython\n
+      \t 🟢 Real-time hands-on activities\n
+      \t 🟢 Expert guidance from Gavesha Labs instructors\n
+      \n‎\n
+      This event is co-chaired by Senethmi Wickramanayake and Sanjeevsaran Jeyanthan, and is supervised under the leadership of RAS Chapter Chairperson Pasan Ranjuka.
+      \n
+      
+Whether you're a beginner or looking to sharpen your embedded systems skills, EMBED X is the perfect platform to dive into real-world robotics with practical exposure.      
+    `,
+  "speakers": [],
+  "agenda": []
+}
 ];
 const scrollToTopWithFallback = () => {
   if ('scrollBehavior' in document.documentElement.style) {
@@ -303,10 +338,13 @@ const EventCard = ({ event, onClick }) => (
         {event.description}
       </p>
       <div className="mt-4 space-y-2">
-        <div className="flex items-center text-blue-600">
+        {event.date &&
+
+          <div className="flex items-center text-blue-600">
           <Calendar className="w-4 h-4 mr-2 flex-shrink-0" />
           <span className="text-sm font-medium">{new Date(event.date).toLocaleDateString()}</span>
         </div>
+        }
       {event.time &&
         <div className="flex items-center text-blue-600">
           <Clock className="w-4 h-4 mr-2 flex-shrink-0" />
@@ -414,7 +452,11 @@ const EventDetailPage = ({ event, onBack }) => (
 
           <div className="mb-6 sm:mb-8">
             <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">About This Event</h2>
-            <p className="text-gray-700 leading-relaxed text-sm sm:text-base">{event.fullDescription}</p>
+           {event.fullDescription.split('\n').map((paragraph, index) => (
+            <p key={index} className={index > 0 ? 'mt-2' : ''}>
+              {paragraph}
+            </p>
+          ))}
           </div>
           {event.speakers.legth > 0 &&
           <div className="mb-6 sm:mb-8">
@@ -447,6 +489,7 @@ const EventDetailPage = ({ event, onBack }) => (
             <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4">Event Details</h3>
             
             <div className="space-y-3 sm:space-y-4">
+              {event.date &&
               <div className="flex items-start">
                 <Calendar className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 mr-2 sm:mr-3 mt-1 flex-shrink-0" />
                 <div>
@@ -459,6 +502,7 @@ const EventDetailPage = ({ event, onBack }) => (
                   })}</p>
                 </div>
               </div>
+              }
               {event.time &&
 
                 <div className="flex items-start">
@@ -485,6 +529,15 @@ const EventDetailPage = ({ event, onBack }) => (
                   <p className="text-gray-600 text-xs sm:text-sm">{event.type || "N/A"}</p>
                 </div>
               </div>
+              {event.capacity && 
+              <div className="flex items-start">
+                <Users className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 mr-2 sm:mr-3 mt-1 flex-shrink-0" />
+                <div>
+                  <p className="font-semibold text-sm sm:text-base">Capacity</p>
+                  <p className="text-gray-600 text-xs sm:text-sm">{event.capacity || "N/A"}</p>
+                </div>
+              </div>
+              }
 
               <div>
                 <p className="font-semibold text-sm sm:text-base">Organizer</p>
@@ -533,14 +586,17 @@ const EventDetailPage = ({ event, onBack }) => (
   </div>
 );
 
-export const News = () => {
-  const [selectedEvent, setSelectedEvent] = useState(null);
+export const News = ({selectedevent = null}) => {
+  const [selectedEvent, setSelectedEvent] = useState(selectedevent);
   const currentDate = new Date().toISOString();
   const upcomingRef = useRef(null);
   const pastRef = useRef(null);
 
-  const upcomingEvents = eventsData.filter(
-    (event) => new Date(event.date) > new Date(currentDate)
+  const upcomingEvents = eventsData.filter((event) => {
+    if(new Date(event.date) > new Date(currentDate) || event.upcoming){
+      return event
+    }
+  }
   );
   const pastEvents = eventsData.filter(
     (event) => new Date(event.date) <= new Date(currentDate)
