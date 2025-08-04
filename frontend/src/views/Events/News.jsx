@@ -545,13 +545,13 @@ const EventDetailPage = ({ event, onBack }) => (
               </div>
             </div>
 
-            {/* Register Button */}
+            {/* Action Buttons */}
             {true && (
-              <div className="mt-4 sm:mt-6">
+              <div className="mt-4 sm:mt-6 space-y-3">
                 <button
-                  className={`w-full py-2 px-4 sm:py-3 sm:px-6 rounded-lg font-semibold transition-all duration-300 text-sm sm:text-base ${
+                  className={`w-full py-2 px-4 sm:py-3 sm:px-6 rounded-full font-semibold transition-all duration-300 text-sm sm:text-base ${
                     event.linkStatus
-                      ? "bg-gradient-to-r from-green-400 to-blue-500 text-white hover:shadow-lg hover:from-green-500 hover:to-blue-600"
+                      ? "bg-[#00629b] text-white hover:shadow-lg hover:from-green-500 hover:to-blue-600"
                       : "bg-gray-400 text-gray-700 cursor-not-allowed"
                   }`}
                   onClick={() => {
@@ -562,10 +562,11 @@ const EventDetailPage = ({ event, onBack }) => (
                 >
                   {event.linkStatus ? "Register Now" : "Registration Closed"}
                 </button>
+                
                 <button
-                  className={`w-full mt-4 py-2 px-4 sm:py-3 sm:px-6 rounded-lg font-semibold transition-all duration-300 text-sm sm:text-base ${
+                  className={`w-full py-2 px-4 sm:py-3 sm:px-6 rounded-full font-semibold transition-all duration-300 text-sm sm:text-base ${
                     event.stayUpdatedLink
-                      ? "bg-gradient-to-r from-purple-400 to-pink-500 text-white hover:shadow-lg hover:from-purple-500 hover:to-pink-600"
+                      ? "bg-[#00629b] text-white hover:shadow-lg hover:from-purple-500 hover:to-pink-600"
                       : "bg-gray-400 text-gray-700 cursor-not-allowed"
                   }`}
                   onClick={() => {
@@ -576,8 +577,17 @@ const EventDetailPage = ({ event, onBack }) => (
                 >
                   {event.stayUpdatedLink ? "Stay Updated" : "Updates Unavailable"}
                 </button>
+
+                {/* Organizer Website Button */}
+                {event.organizerWebsite && (
+                  <button
+                    className="w-full py-2 px-4 sm:py-3 sm:px-6 rounded-full font-semibold transition-all duration-300 text-sm sm:text-base bg-[#00629b] text-white hover:shadow-lg hover:bg-blue-700"
+                    onClick={() => window.open(event.organizerWebsite, '_blank')}
+                  >
+                    Visit Organizer Website
+                  </button>
+                )}
               </div>
-              
             )}
           </div>
         </div>
