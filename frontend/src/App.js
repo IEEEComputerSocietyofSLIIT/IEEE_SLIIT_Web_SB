@@ -11,6 +11,7 @@ import { Join } from './views/Joinus/Join';
 import Home from './views/home/home'
 import HomeNew from './views/home/homeNew';
 import Footer from './views/Footer/Footer'
+import embedxImages from './images/events/embedx25'
 
 function App() {
   let  embedx={
@@ -21,7 +22,7 @@ function App() {
   "upcoming":true,
   "time": "8:30 AM onwards",
   "location": "Engineering Auditorium 2 (EA2)",
-  "images": [],
+  "images": [embedxImages.image1],
   "linkStatus": true,
   "stayUpdatedLink":"https://linktr.ee/ieee_ras_sliit",
   "googleFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSf6VhqjZZMPLTitmftkXt-hgukgloEcV1r0tK_SRyr9HWcwQQ/viewform",

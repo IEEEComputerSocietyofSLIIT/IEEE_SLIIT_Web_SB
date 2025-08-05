@@ -24,6 +24,7 @@ import venturify24Images from "../../images/events/venturify24"
 
 
 import { ChevronLeft, ChevronRight, Calendar, Clock, MapPin, Users, ArrowLeft } from "lucide-react";
+import embedxImages from "../../images/events/embedx25";
 
 // Hardcoded event data
 const eventsData = [
@@ -274,7 +275,7 @@ Undergraduates often face challenges in securing internships due to a lack of aw
   "upcoming":true,
   "time": "8:30 AM onwards",
   "location": "Engineering Auditorium 2 (EA2)",
-  "images": [],
+  "images": [embedxImages.image1],
   "linkStatus": true,
   "stayUpdatedLink":"https://linktr.ee/ieee_ras_sliit",
   "googleFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSf6VhqjZZMPLTitmftkXt-hgukgloEcV1r0tK_SRyr9HWcwQQ/viewform",
