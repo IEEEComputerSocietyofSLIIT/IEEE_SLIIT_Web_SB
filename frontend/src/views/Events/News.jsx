@@ -25,6 +25,7 @@ import venturify24Images from "../../images/events/venturify24"
 
 import { ChevronLeft, ChevronRight, Calendar, Clock, MapPin, Users, ArrowLeft } from "lucide-react";
 import embedxImages from "../../images/events/embedx25";
+import cellspell from "../../images/events/cellspell";
 
 // Hardcoded event data
 const eventsData = [
@@ -302,7 +303,32 @@ Whether you're a beginner or looking to sharpen your embedded systems skills, EM
     `,
   "speakers": [],
   "agenda": []
-}
+},
+{
+  "id": 15,
+  "name": "CellSpell",
+  "description": "CellSpell, an upcoming academic initiative by the IEEE EMBS Student Branch Chapter of SLIIT,is designed to take your scientific understanding beyond the classroom",
+  "date": "",
+  "upcoming":true,
+  "time": "",
+  "location": "",
+  "images": [cellspell.image1,],
+  "banner":[cellspell.image2],
+  "linkStatus": false,
+  "googleFormLink": "",
+  "organizer": "IEEE EMBS Student Branch Chapter of SLIIT",
+   "type":"Virtual",
+  "capacity": "100+",
+  "comingsoon":true,
+  "tags": [],
+  "fullDescription": 
+  ` CellSpell, an upcoming academic initiative by the IEEE EMBS Student Branch Chapter of SLIIT, is designed to take your scientific understanding beyond the classroom.This unique experience features two insightful virtual workshops and two exclusive industrial visits, curated to give you both the theoretical foundation and the real-world exposure needed to thrive in the life sciences field. \n\n
+  From genome analysis to hands-on molecular diagnostics, CellSpell will introduce you to the tools, techniques, and applications shaping today’s biomedical innovations. Whether you're passionate about computational biology or eager to explore career paths in biotechnology, this program will guide you through it all.\n\n
+  The program is co-chaired by Shalini Kularatne and Mithila Samarawickrama, and operatesunder the leadership of Executive Committee, IEEE EMBS Student Branch Chapter of SLIIT.
+`,
+  "speakers": [],
+  "agenda": []
+},
 ];
 const scrollToTopWithFallback = () => {
   if ('scrollBehavior' in document.documentElement.style) {
@@ -396,7 +422,7 @@ const EventDetailPage = ({ event, onBack }) => (
     {event.images && event.images.length > 0 ? (
       <div className="relative h-64 sm:h-80 md:h-96 w-full overflow-hidden">
         <img
-          src={event.images[0]}
+          src={event.banner ? event.banner :event.images[0]}
           alt={event.name}
           className="h-full w-full object-cover"
         />
@@ -561,7 +587,7 @@ const EventDetailPage = ({ event, onBack }) => (
                     }
                   }}
                 >
-                  {event.linkStatus ? "Register Now" : "Registration Closed"}
+                  {event.linkStatus ? "Register Now" : event.comingsoon ? "Coming soon" : "Registration Closed"}
                 </button>
                 
                 <button
