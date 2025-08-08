@@ -320,6 +320,8 @@ Whether you're a beginner or looking to sharpen your embedded systems skills, EM
    "type":"Virtual",
   "capacity": "100+",
   "comingsoon":true,
+  "stayUpdatedLink":"https://drive.google.com/file/d/12JTiWMzs_NcGYEWjCP4htINmQp1DTlYG/view?usp=drivesdk",
+  "stayupdatedtext":"Get to know about CellSpell",
   "tags": [],
   "fullDescription": 
   ` CellSpell, an upcoming academic initiative by the IEEE EMBS Student Branch Chapter of SLIIT, is designed to take your scientific understanding beyond the classroom.This unique experience features two insightful virtual workshops and two exclusive industrial visits, curated to give you both the theoretical foundation and the real-world exposure needed to thrive in the life sciences field. \n\n
@@ -602,7 +604,7 @@ const EventDetailPage = ({ event, onBack }) => (
                     }
                   }}
                 >
-                  {event.stayUpdatedLink ? "Stay Updated" : "Updates Unavailable"}
+                  {event.stayUpdatedLink ? event.stayupdatedtext?event.stayupdatedtext:"Stay Updated" : "Updates Unavailable"}
                 </button>
 
                 {/* Organizer Website Button */}
