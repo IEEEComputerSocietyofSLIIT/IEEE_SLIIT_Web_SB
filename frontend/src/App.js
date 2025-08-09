@@ -12,6 +12,7 @@ import Home from './views/home/home'
 import HomeNew from './views/home/homeNew';
 import Footer from './views/Footer/Footer'
 import embedxImages from './images/events/embedx25'
+import cellspell from './images/events/cellspell';
 
 function App() {
   let  embedx={
@@ -51,7 +52,7 @@ Whether you're a beginner or looking to sharpen your embedded systems skills, EM
   "speakers": [],
   "agenda": []
 }
-let cellspell ={
+let Cellspell ={
   "id": 15,
   "name": "CellSpell",
   "description": "CellSpell, an upcoming academic initiative by the IEEE EMBS Student Branch Chapter of SLIIT,is designed to take your scientific understanding beyond the classroom",
@@ -91,7 +92,7 @@ let cellspell ={
         <Route path="/committee" element={<SBCommittee />} />
         <Route path="/events" element={<News />} />
         <Route path="/events/embedx" element={<News selectedevent={embedx} />} />
-        <Route path="/events/cellspell" element={<News selectedevent={cellspell} />} />
+        <Route path="/events/cellspell" element={<News selectedevent={Cellspell} />} />
         
       </Routes>
       <Footer />
