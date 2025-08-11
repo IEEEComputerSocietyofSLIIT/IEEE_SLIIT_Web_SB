@@ -317,16 +317,22 @@ Whether you're a beginner or looking to sharpen your embedded systems skills, EM
   "linkStatus": true,
   "googleFormLink": "https://forms.gle/QgFQQTSUxb6t3CoG6",
   "organizer": "IEEE EMBS Student Branch Chapter of SLIIT",
-   "type":"Virtual",
+  "type":"Virtual",
   "capacity": "100+",
   "comingsoon":false,
   "stayUpdatedLink":"https://drive.google.com/file/d/12JTiWMzs_NcGYEWjCP4htINmQp1DTlYG/view?usp=drivesdk",
   "stayupdatedtext":"Get to know about CellSpell",
   "tags": [],
   "fullDescription": 
-  ` CellSpell, an upcoming academic initiative by the IEEE EMBS Student Branch Chapter of SLIIT, is designed to take your scientific understanding beyond the classroom.This unique experience features two insightful virtual workshops and two exclusive industrial visits, curated to give you both the theoretical foundation and the real-world exposure needed to thrive in the life sciences field. \n\n
-  From genome analysis to hands-on molecular diagnostics, CellSpell will introduce you to the tools, techniques, and applications shaping today’s biomedical innovations. Whether you're passionate about computational biology or eager to explore career paths in biotechnology, this program will guide you through it all.\n\n
-  The program is co-chaired by Shalini Kularatne and Mithila Samarawickrama, and operatesunder the leadership of Executive Committee, IEEE EMBS Student Branch Chapter of SLIIT.
+  `<b>CellSpell</b>, an upcoming academic initiative by the IEEE EMBS Student Branch Chapter of SLIIT, is designed to take your scientific understanding beyond the classroom. This unique experience features <b>two insightful virtual workshops</b> and <b>two exclusive industrial visits</b>, curated to give you both the <b>theoretical foundation</b> and the <b>real-world exposure</b> needed to thrive in the life sciences field.
+   \n ‎
+  <b>The CellSpell Sessions:</b>
+  <b>Webinar I</b> – Bioinformatics: The Engineer's Toolkit
+  <b>Webinar II</b> – Molecular Biology in Motion: Techniques & Real-World Impact \n ‎ \n
+  
+  Following these engaging webinars, participants will take part in upcoming industrial visits to leading biomedical and molecular biology facilities, offering a rare behind the scenes perspective into industry practices and innovations. \n ‎ \n
+  The program is co-chaired by <b>Shalini Kularatne</b> and <b>Mithila Samarawickrama</b>, and operates under the leadership of <b>Executive Committee, IEEE EMBS Student Branch Chapter of SLIIT.</b>
+
 `,
   "speakers": [],
   "agenda": []
@@ -406,6 +412,50 @@ const EventCard = ({ event, onClick }) => (
     </div>
   </div>
 );
+const parseFormattedText = (text) => {
+  // Regular expression to match <b>, <i>, <u>, <strong>, <em> tags
+  const tagRegex = /(<\/?(?:b|i|u|strong|em)>)/g;
+  const parts = text.split(tagRegex);
+  
+  const result = [];
+  let currentTags = [];
+  
+  for (let i = 0; i < parts.length; i++) {
+    const part = parts[i];
+    
+    if (part.match(/^<(b|strong)>$/)) {
+      currentTags.push('bold');
+    } else if (part.match(/^<\/(b|strong)>$/)) {
+      currentTags = currentTags.filter(tag => tag !== 'bold');
+    } else if (part.match(/^<(i|em)>$/)) {
+      currentTags.push('italic');
+    } else if (part.match(/^<\/(i|em)>$/)) {
+      currentTags = currentTags.filter(tag => tag !== 'italic');
+    } else if (part.match(/^<u>$/)) {
+      currentTags.push('underline');
+    } else if (part.match(/^<\/u>$/)) {
+      currentTags = currentTags.filter(tag => tag !== 'underline');
+    } else if (part && !part.match(/^<\/?/)) {
+      // This is actual text content
+      let element = part;
+      
+      if (currentTags.includes('bold')) {
+        element = <strong key={`${i}-bold`}>{element}</strong>;
+      }
+      if (currentTags.includes('italic')) {
+        element = <em key={`${i}-italic`}>{element}</em>;
+      }
+      if (currentTags.includes('underline')) {
+        element = <u key={`${i}-underline`}>{element}</u>;
+      }
+      
+      result.push(element);
+    }
+  }
+  
+  return result;
+};
+
 
 const EventDetailPage = ({ event, onBack }) => (
   <div className="bg-white min-h-screen">
@@ -424,16 +474,21 @@ const EventDetailPage = ({ event, onBack }) => (
     {event.images && event.images.length > 0 ? (
       <div className="relative h-64 sm:h-80 md:h-96 w-full overflow-hidden">
         <img
-          src={event.banner ? event.banner :event.images[0]}
+          src={event.banner ? event.banner : event.images[0]}
           alt={event.name}
           className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
           <div className="text-center text-white p-4">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold mb-2 sm:mb-4">{event.name}</h1>
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold mb-2 sm:mb-4">
+              {event.name}
+            </h1>
             <div className="flex flex-wrap justify-center gap-1 sm:gap-2">
               {event.tags.map((tag, index) => (
-                <span key={index} className="bg-blue-500 text-white px-2 py-1 sm:px-3 sm:py-1 rounded-full text-xs sm:text-sm">
+                <span
+                  key={index}
+                  className="bg-blue-500 text-white px-2 py-1 sm:px-3 sm:py-1 rounded-full text-xs sm:text-sm"
+                >
                   {tag}
                 </span>
               ))}
@@ -444,10 +499,15 @@ const EventDetailPage = ({ event, onBack }) => (
     ) : (
       <div className="bg-gradient-to-r from-blue-500 to-purple-600 py-12 sm:py-16 md:py-20">
         <div className="text-center text-white p-4">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold mb-2 sm:mb-4">{event.name}</h1>
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold mb-2 sm:mb-4">
+            {event.name}
+          </h1>
           <div className="flex flex-wrap justify-center gap-1 sm:gap-2">
             {event.tags.map((tag, index) => (
-              <span key={index} className="bg-blue-500 text-white px-2 py-1 sm:px-3 sm:py-1 rounded-full text-xs sm:text-sm">
+              <span
+                key={index}
+                className="bg-blue-500 text-white px-2 py-1 sm:px-3 sm:py-1 rounded-full text-xs sm:text-sm"
+              >
                 {tag}
               </span>
             ))}
@@ -464,10 +524,15 @@ const EventDetailPage = ({ event, onBack }) => (
           {/* Event Images Gallery - Only show if there are multiple images */}
           {event.images && event.images.length > 1 && (
             <div className="mb-6 sm:mb-8">
-              <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">Event Gallery</h2>
+              <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">
+                Event Gallery
+              </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
                 {event.images.slice(1).map((image, index) => (
-                  <div key={index} className="relative rounded-lg overflow-hidden">
+                  <div
+                    key={index}
+                    className="relative rounded-lg overflow-hidden"
+                  >
                     <img
                       src={image}
                       alt={`${event.name} - Image ${index + 2}`}
@@ -480,97 +545,126 @@ const EventDetailPage = ({ event, onBack }) => (
           )}
 
           <div className="mb-6 sm:mb-8">
-            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">About This Event</h2>
-           {event.fullDescription.split('\n').map((paragraph, index) => (
-            <p key={index} className={index > 0 ? 'mt-2' : ''}>
-              {paragraph}
-            </p>
-          ))}
+            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">
+              About This Event
+            </h2>
+            {event.fullDescription.split("\n").map((paragraph, index) => (
+              <p key={index} className={index > 0 ? "mt-2" : ""}>
+                {parseFormattedText(paragraph)}
+              </p>
+            ))}
           </div>
-          {event.speakers.legth > 0 &&
-          <div className="mb-6 sm:mb-8">
-            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">Speakers</h2>
-            <ul className="space-y-2">
-              {event.speakers.map((speaker, index) => (
-                <li key={index} className="text-gray-700 text-sm sm:text-base">• {speaker}</li>
-              ))}
-            </ul>
-          </div> }
-          {
-            event.agenda.legth > 0 && 
+          {event.speakers.legth > 0 && (
             <div className="mb-6 sm:mb-8">
-            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">Agenda</h2>
-            <div className="space-y-2 sm:space-y-3">
-              {event.agenda.map((item, index) => (
-                <div key={index} className="bg-gray-50 p-2 sm:p-3 rounded-lg">
-                  <span className="text-gray-700 text-sm sm:text-base">{item}</span>
-                </div>
-              ))}
+              <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">
+                Speakers
+              </h2>
+              <ul className="space-y-2">
+                {event.speakers.map((speaker, index) => (
+                  <li
+                    key={index}
+                    className="text-gray-700 text-sm sm:text-base"
+                  >
+                    • {speaker}
+                  </li>
+                ))}
+              </ul>
             </div>
-          </div>
-          }
-          
+          )}
+          {event.agenda.legth > 0 && (
+            <div className="mb-6 sm:mb-8">
+              <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">
+                Agenda
+              </h2>
+              <div className="space-y-2 sm:space-y-3">
+                {event.agenda.map((item, index) => (
+                  <div key={index} className="bg-gray-50 p-2 sm:p-3 rounded-lg">
+                    <span className="text-gray-700 text-sm sm:text-base">
+                      {item}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
 
         {/* Sidebar */}
         <div className="lg:col-span-1 order-1 lg:order-2">
           <div className="bg-gray-50 p-4 sm:p-6 rounded-lg lg:sticky lg:top-4">
-            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4">Event Details</h3>
-            
-            <div className="space-y-3 sm:space-y-4">
-              {event.date &&
-              <div className="flex items-start">
-                <Calendar className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 mr-2 sm:mr-3 mt-1 flex-shrink-0" />
-                <div>
-                  <p className="font-semibold text-sm sm:text-base">Date</p>
-                  <p className="text-gray-600 text-xs sm:text-sm">{new Date(event.date).toLocaleDateString('en-US', { 
-                    weekday: 'long', 
-                    year: 'numeric', 
-                    month: 'long', 
-                    day: 'numeric' 
-                  })}</p>
-                </div>
-              </div>
-              }
-              {event.time &&
+            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4">
+              Event Details
+            </h3>
 
+            <div className="space-y-3 sm:space-y-4">
+              {event.date && (
                 <div className="flex items-start">
-                <Clock className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 mr-2 sm:mr-3 mt-1 flex-shrink-0" />
-                <div>
-                  <p className="font-semibold text-sm sm:text-base">Time</p>
-                  <p className="text-gray-600 text-xs sm:text-sm">{event.time}</p>
+                  <Calendar className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 mr-2 sm:mr-3 mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="font-semibold text-sm sm:text-base">Date</p>
+                    <p className="text-gray-600 text-xs sm:text-sm">
+                      {new Date(event.date).toLocaleDateString("en-US", {
+                        weekday: "long",
+                        year: "numeric",
+                        month: "long",
+                        day: "numeric",
+                      })}
+                    </p>
+                  </div>
                 </div>
-              </div>
-              }
+              )}
+              {event.time && (
+                <div className="flex items-start">
+                  <Clock className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 mr-2 sm:mr-3 mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="font-semibold text-sm sm:text-base">Time</p>
+                    <p className="text-gray-600 text-xs sm:text-sm">
+                      {event.time}
+                    </p>
+                  </div>
+                </div>
+              )}
 
               <div className="flex items-start">
                 <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 mr-2 sm:mr-3 mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-semibold text-sm sm:text-base">Location</p>
-                  <p className="text-gray-600 text-xs sm:text-sm">{event.location}</p>
+                  <p className="text-gray-600 text-xs sm:text-sm">
+                    {event.location}
+                  </p>
                 </div>
               </div>
 
               <div className="flex items-start">
                 <Users className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 mr-2 sm:mr-3 mt-1 flex-shrink-0" />
                 <div>
-                  <p className="font-semibold text-sm sm:text-base">Event Type</p>
-                  <p className="text-gray-600 text-xs sm:text-sm">{event.type || "N/A"}</p>
+                  <p className="font-semibold text-sm sm:text-base">
+                    Event Type
+                  </p>
+                  <p className="text-gray-600 text-xs sm:text-sm">
+                    {event.type || "N/A"}
+                  </p>
                 </div>
               </div>
-              {event.capacity && 
-              <div className="flex items-start">
-                <Users className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 mr-2 sm:mr-3 mt-1 flex-shrink-0" />
-                <div>
-                  <p className="font-semibold text-sm sm:text-base">Capacity</p>
-                  <p className="text-gray-600 text-xs sm:text-sm">{event.capacity || "N/A"}</p>
+              {event.capacity && (
+                <div className="flex items-start">
+                  <Users className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 mr-2 sm:mr-3 mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="font-semibold text-sm sm:text-base">
+                      Capacity
+                    </p>
+                    <p className="text-gray-600 text-xs sm:text-sm">
+                      {event.capacity || "N/A"}
+                    </p>
+                  </div>
                 </div>
-              </div>
-              }
+              )}
 
               <div>
                 <p className="font-semibold text-sm sm:text-base">Organizer</p>
-                <p className="text-gray-600 text-xs sm:text-sm">{event.organizer}</p>
+                <p className="text-gray-600 text-xs sm:text-sm">
+                  {event.organizer}
+                </p>
               </div>
             </div>
 
@@ -585,13 +679,17 @@ const EventDetailPage = ({ event, onBack }) => (
                   }`}
                   onClick={() => {
                     if (event.linkStatus && event.googleFormLink) {
-                      window.open(event.googleFormLink, '_blank');
+                      window.open(event.googleFormLink, "_blank");
                     }
                   }}
                 >
-                  {event.linkStatus ? "Register Now" : event.comingsoon ? "Coming soon" : "Registration Closed"}
+                  {event.linkStatus
+                    ? "Register Now"
+                    : event.comingsoon
+                    ? "Coming soon"
+                    : "Registration Closed"}
                 </button>
-                
+
                 <button
                   className={`w-full py-2 px-4 sm:py-3 sm:px-6 rounded-full font-semibold transition-all duration-300 text-sm sm:text-base ${
                     event.stayUpdatedLink
@@ -600,18 +698,24 @@ const EventDetailPage = ({ event, onBack }) => (
                   }`}
                   onClick={() => {
                     if (event.stayUpdatedLink) {
-                      window.open(event.stayUpdatedLink, '_blank');
+                      window.open(event.stayUpdatedLink, "_blank");
                     }
                   }}
                 >
-                  {event.stayUpdatedLink ? event.stayupdatedtext?event.stayupdatedtext:"Stay Updated" : "Updates Unavailable"}
+                  {event.stayUpdatedLink
+                    ? event.stayupdatedtext
+                      ? event.stayupdatedtext
+                      : "Stay Updated"
+                    : "Updates Unavailable"}
                 </button>
 
                 {/* Organizer Website Button */}
                 {event.organizerWebsite && (
                   <button
                     className="w-full py-2 px-4 sm:py-3 sm:px-6 rounded-full font-semibold transition-all duration-300 text-sm sm:text-base bg-[#00629b] text-white hover:shadow-lg hover:bg-blue-700"
-                    onClick={() => window.open(event.organizerWebsite, '_blank')}
+                    onClick={() =>
+                      window.open(event.organizerWebsite, "_blank")
+                    }
                   >
                     Visit Organizer Website
                   </button>
