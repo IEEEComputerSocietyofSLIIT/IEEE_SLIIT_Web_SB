@@ -65,16 +65,22 @@ let Cellspell ={
   "linkStatus": true,
   "googleFormLink": "https://forms.gle/QgFQQTSUxb6t3CoG6",
   "organizer": "IEEE EMBS Student Branch Chapter of SLIIT",
-   "type":"Virtual",
+  "type":"Virtual",
   "capacity": "100+",
   "comingsoon":false,
   "stayUpdatedLink":"https://drive.google.com/file/d/12JTiWMzs_NcGYEWjCP4htINmQp1DTlYG/view?usp=drivesdk",
   "stayupdatedtext":"Get to know about CellSpell",
   "tags": [],
   "fullDescription": 
-  ` CellSpell, an upcoming academic initiative by the IEEE EMBS Student Branch Chapter of SLIIT, is designed to take your scientific understanding beyond the classroom.This unique experience features two insightful virtual workshops and two exclusive industrial visits, curated to give you both the theoretical foundation and the real-world exposure needed to thrive in the life sciences field. \n\n
-  From genome analysis to hands-on molecular diagnostics, CellSpell will introduce you to the tools, techniques, and applications shaping today’s biomedical innovations. Whether you're passionate about computational biology or eager to explore career paths in biotechnology, this program will guide you through it all.\n\n
-  The program is co-chaired by Shalini Kularatne and Mithila Samarawickrama, and operatesunder the leadership of Executive Committee, IEEE EMBS Student Branch Chapter of SLIIT.
+  `<b>CellSpell</b>, an upcoming academic initiative by the IEEE EMBS Student Branch Chapter of SLIIT, is designed to take your scientific understanding beyond the classroom. This unique experience features <b>two insightful virtual workshops</b> and <b>two exclusive industrial visits</b>, curated to give you both the <b>theoretical foundation</b> and the <b>real-world exposure</b> needed to thrive in the life sciences field.
+   \n ‎
+  <b>The CellSpell Sessions:</b>
+  <b>Webinar I</b> – Bioinformatics: The Engineer's Toolkit
+  <b>Webinar II</b> – Molecular Biology in Motion: Techniques & Real-World Impact \n ‎ \n
+  
+  Following these engaging webinars, participants will take part in upcoming industrial visits to leading biomedical and molecular biology facilities, offering a rare behind the scenes perspective into industry practices and innovations. \n ‎ \n
+  The program is co-chaired by <b>Shalini Kularatne</b> and <b>Mithila Samarawickrama</b>, and operates under the leadership of <b>Executive Committee, IEEE EMBS Student Branch Chapter of SLIIT.</b>
+
 `,
   "speakers": [],
   "agenda": []
