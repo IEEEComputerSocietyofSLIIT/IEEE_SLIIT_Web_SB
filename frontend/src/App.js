@@ -13,6 +13,7 @@ import HomeNew from './views/home/homeNew';
 import Footer from './views/Footer/Footer'
 import embedxImages from './images/events/embedx25'
 import cellspell from './images/events/cellspell';
+import merch from './images/events/merch';
 
 function App() {
   let  embedx={
@@ -85,6 +86,41 @@ let Cellspell ={
   "speakers": [],
   "agenda": []
 }
+
+let merchandise ={
+  "id": 16,
+  "name": "Get your merchandise",
+  "description": "Gear up in style with the Official IEEE SLIIT Merch!",
+  "date": "",
+  "upcoming":true,
+  "time": "",
+  "location": "",
+  "images": [merch.image1],
+  "banner":[merch.image1],
+  "linkStatus": false,
+  "googleFormLink": "",
+  "organizer": "IEEE Student Branch Chapter of SLIIT",
+  "type":"Virtual",
+  "capacity": "",
+  "comingsoon":false,
+  "stayUpdatedLink":"https://forms.gle/HnnB4aS1TNB9pnhcA",
+  "stayupdatedtext":"Pre Order Now",
+  "tags": [],
+  "fullDescription": 
+  `<b>🎉 Gear up in style with the Official IEEE SLIIT Merch! </b>\n
+  Upgrade your style with the Official IEEE SLIIT Merch! Our all-new exclusive polo T-shirts are crafted from premium Dark Ash Crocodile (PK 220) fabric, offering unmatched comfort, durability, and a sleek, modern look.
+  \n
+   Perfect for both casual and semi-formal occasions, these polos let you represent IEEE SLIIT in style.\n
+🛒 ᴘʀᴇ-ᴏʀᴅᴇʀ ɴᴏᴡ ғᴏʀ ᴊᴜsᴛ ʀs. 2000\n
+ɪᴇᴇᴇ ᴍᴇᴍʙᴇʀs ɢᴇᴛ ɪᴛ ғᴏʀ ʀs. 1750 \n
+📦 ʟɪᴍɪᴛᴇᴅ sᴛᴏᴄᴋs ᴀᴠᴀɪʟᴀʙʟᴇ!\n
+
+
+Stocks are limited, so grab yours before they run out and make a statement wherever you go!
+`,
+  "speakers": [],
+  "agenda": []
+}
   return (
     <Router>
       
@@ -99,6 +135,7 @@ let Cellspell ={
         <Route path="/events" element={<News />} />
         <Route path="/events/embedx" element={<News selectedevent={embedx} />} />
         <Route path="/events/cellspell" element={<News selectedevent={Cellspell} />} />
+        <Route path="/events/merchandise" element={<News selectedevent={merchandise} />} />
         
       </Routes>
       <Footer />
