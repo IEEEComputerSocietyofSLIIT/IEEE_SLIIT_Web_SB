@@ -349,6 +349,7 @@ Whether you're a beginner or looking to sharpen your embedded systems skills, EM
   "images": [merch.image1],
   "banner":[merch.image1],
   "linkStatus": false,
+  "noreg":true,
   "googleFormLink": "",
   "organizer": "IEEE Student Branch Chapter of SLIIT",
   "type":"Virtual",
@@ -706,6 +707,9 @@ const EventDetailPage = ({ event, onBack }) => (
             {/* Action Buttons */}
             {true && (
               <div className="mt-4 sm:mt-6 space-y-3">
+                {
+                  event.noreg &&
+               
                 <button
                   className={`w-full py-2 px-4 sm:py-3 sm:px-6 rounded-full font-semibold transition-all duration-300 text-sm sm:text-base ${
                     event.linkStatus
@@ -724,7 +728,7 @@ const EventDetailPage = ({ event, onBack }) => (
                     ? "Coming soon"
                     : "Registration Closed"}
                 </button>
-
+ }
                 <button
                   className={`w-full py-2 px-4 sm:py-3 sm:px-6 rounded-full font-semibold transition-all duration-300 text-sm sm:text-base ${
                     event.stayUpdatedLink

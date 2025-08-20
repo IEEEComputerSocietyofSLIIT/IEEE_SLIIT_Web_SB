@@ -98,6 +98,7 @@ let merchandise ={
   "images": [merch.image1],
   "banner":[merch.image1],
   "linkStatus": false,
+  "noreg":true,
   "googleFormLink": "",
   "organizer": "IEEE Student Branch Chapter of SLIIT",
   "type":"Virtual",
