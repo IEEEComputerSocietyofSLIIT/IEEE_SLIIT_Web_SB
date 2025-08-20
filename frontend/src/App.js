@@ -136,7 +136,7 @@ Stocks are limited, so grab yours before they run out and make a statement where
         <Route path="/events" element={<News />} />
         <Route path="/events/embedx" element={<News selectedevent={embedx} />} />
         <Route path="/events/cellspell" element={<News selectedevent={Cellspell} />} />
-        <Route path="/events/merchandise" element={<News selectedevent={merchandise} />} />
+        <Route path="/merchandise" element={<News selectedevent={merchandise} />} />
         
       </Routes>
       <Footer />
