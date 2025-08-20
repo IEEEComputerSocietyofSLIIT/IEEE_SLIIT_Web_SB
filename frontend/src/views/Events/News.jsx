@@ -708,7 +708,7 @@ const EventDetailPage = ({ event, onBack }) => (
             {true && (
               <div className="mt-4 sm:mt-6 space-y-3">
                 {
-                  event.noreg &&
+                  !event.noreg &&
                
                 <button
                   className={`w-full py-2 px-4 sm:py-3 sm:px-6 rounded-full font-semibold transition-all duration-300 text-sm sm:text-base ${
