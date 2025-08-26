@@ -14,6 +14,7 @@ import Footer from './views/Footer/Footer'
 import embedxImages from './images/events/embedx25'
 import cellspell from './images/events/cellspell';
 import merch from './images/events/merch';
+import joyBots2 from './images/events/joybots2.0';
 
 function App() {
   let  embedx={
