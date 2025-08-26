@@ -122,6 +122,38 @@ Stocks are limited, so grab yours before they run out and make a statement where
   "speakers": [],
   "agenda": []
 }
+
+let joybots2={
+  "id": 17,
+  "name": "JOYBOTS 2.0",
+  "description": "Joybots 2.0, the second edition of our very own online magazine by the IEEE Robotics and Automation Society of SLIIT.",
+  "date": "",
+  "upcoming":true,
+  "time": "",
+  "location": "",
+  "images": [joyBots2.image1],
+  "banner":[joyBots2.image1],
+  "linkStatus": false,
+  "noreg":true,
+  "googleFormLink": "",
+  "organizer": "IEEE Robotics and Automation Society Chapter, SLIIT",
+  "type":"Virtual",
+  "capacity": "",
+  "comingsoon":false,
+  "stayUpdatedLink":"https://tinyurl.com/mr2ek62z",
+  "stayupdatedtext":"Read Now",
+  "tags": [],
+  "fullDescription": 
+  `<b>The wait is finally over!</b>\n
+Joybots 2.0, the second edition of our very own online magazine by the IEEE Robotics and Automation Society of SLIIT.
+\n
+  Bringing you a collection of exciting student projects, insightful industry-related content, highlights from our events, and a sneak peek into our future projects.\n
+And here’s something for you too — if you’ve got a project or idea you’d love to showcase, we’d be happy to feature it in our upcoming issues!\n
+`,
+  "speakers": [],
+  "agenda": []
+}
+
   return (
     <Router>
       
@@ -137,6 +169,7 @@ Stocks are limited, so grab yours before they run out and make a statement where
         <Route path="/events/embedx" element={<News selectedevent={embedx} />} />
         <Route path="/events/cellspell" element={<News selectedevent={Cellspell} />} />
         <Route path="/merchandise" element={<News selectedevent={merchandise} />} />
+        <Route path="/joybots2" element={<News selectedevent={joybots2} />} />
         
       </Routes>
       <Footer />
