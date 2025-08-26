@@ -169,8 +169,8 @@ And here’s something for you too — if you’ve got a project or idea you’d
         <Route path="/events" element={<News />} />
         <Route path="/events/embedx" element={<News selectedevent={embedx} />} />
         <Route path="/events/cellspell" element={<News selectedevent={Cellspell} />} />
-        <Route path="/merchandise" element={<News selectedevent={merchandise} />} />
-        <Route path="/joybots2" element={<News selectedevent={joybots2} />} />
+        <Route path="/events/merchandise" element={<News selectedevent={merchandise} />} />
+        <Route path="/events/joybots2" element={<News selectedevent={joybots2} />} />
         
       </Routes>
       <Footer />
